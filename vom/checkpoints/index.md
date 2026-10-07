@@ -1,0 +1,3 @@
+---
+order: [foundations, blocks, architecture]
+---

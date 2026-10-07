@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 400" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Post-norm and pre-norm layers</title>
+  <text x="95.0" y="18.0" text-anchor="middle" font-size="13" font-style="normal" font-weight="bold" fill="#000000" stroke="none">Post-norm</text>
+  <text x="95.0" y="44.0" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">input</text>
+  <circle cx="95" cy="50" r="3" fill="#000000" stroke="none"/>
+  <line x1="95.0" y1="50.0" x2="95.0" y2="64.0" stroke="#000000"/>
+  <path d="M95.0 72.0 L91.6 64.0 L98.4 64.0 Z" fill="#000000" stroke="none"/>
+  <rect x="43.0" y="74.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="95.0" y="91.8" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">self-attention</text>
+  <line x1="95.0" y1="102.0" x2="95.0" y2="116.0" stroke="#000000"/>
+  <path d="M95.0 124.0 L91.6 116.0 L98.4 116.0 Z" fill="#000000" stroke="none"/>
+  <circle cx="95" cy="136" r="12" stroke="#000000"/>
+  <line x1="89" y1="136" x2="101" y2="136" stroke="#000000"/>
+  <line x1="95" y1="130" x2="95" y2="142" stroke="#000000"/>
+  <path d="M95 50 L35 50 Q25 50 25 60 L25 126 Q25 136 35 136 L75 136" stroke="#0000ff" stroke-width="2"/>
+  <path d="M83.0 136.0 L75.0 139.4 L75.0 132.6 Z" fill="#0000ff" stroke="none"/>
+  <line x1="95.0" y1="148.0" x2="95.0" y2="162.0" stroke="#000000"/>
+  <path d="M95.0 170.0 L91.6 162.0 L98.4 162.0 Z" fill="#000000" stroke="none"/>
+  <rect x="43.0" y="172.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="95.0" y="189.8" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">layer norm</text>
+  <circle cx="95" cy="200" r="3" fill="#000000" stroke="none"/>
+  <line x1="95.0" y1="200.0" x2="95.0" y2="214.0" stroke="#000000"/>
+  <path d="M95.0 222.0 L91.6 214.0 L98.4 214.0 Z" fill="#000000" stroke="none"/>
+  <rect x="43.0" y="224.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="95.0" y="241.8" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">feed-forward</text>
+  <line x1="95.0" y1="252.0" x2="95.0" y2="266.0" stroke="#000000"/>
+  <path d="M95.0 274.0 L91.6 266.0 L98.4 266.0 Z" fill="#000000" stroke="none"/>
+  <circle cx="95" cy="286" r="12" stroke="#000000"/>
+  <line x1="89" y1="286" x2="101" y2="286" stroke="#000000"/>
+  <line x1="95" y1="280" x2="95" y2="292" stroke="#000000"/>
+  <path d="M95 200 L35 200 Q25 200 25 210 L25 276 Q25 286 35 286 L75 286" stroke="#0000ff" stroke-width="2"/>
+  <path d="M83.0 286.0 L75.0 289.4 L75.0 282.6 Z" fill="#0000ff" stroke="none"/>
+  <line x1="95.0" y1="298.0" x2="95.0" y2="312.0" stroke="#000000"/>
+  <path d="M95.0 320.0 L91.6 312.0 L98.4 312.0 Z" fill="#000000" stroke="none"/>
+  <rect x="43.0" y="322.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="95.0" y="339.9" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">layer norm</text>
+  <line x1="95.0" y1="350.0" x2="95.0" y2="364.0" stroke="#000000"/>
+  <path d="M95.0 372.0 L91.6 364.0 L98.4 364.0 Z" fill="#000000" stroke="none"/>
+  <text x="95.0" y="386.0" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">output</text>
+  <text x="285.0" y="18.0" text-anchor="middle" font-size="13" font-style="normal" font-weight="bold" fill="#000000" stroke="none">Pre-norm</text>
+  <text x="285.0" y="44.0" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">input</text>
+  <circle cx="285" cy="50" r="3" fill="#000000" stroke="none"/>
+  <line x1="285.0" y1="50.0" x2="285.0" y2="64.0" stroke="#000000"/>
+  <path d="M285.0 72.0 L281.6 64.0 L288.4 64.0 Z" fill="#000000" stroke="none"/>
+  <rect x="233.0" y="74.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="285.0" y="91.8" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">layer norm</text>
+  <line x1="285.0" y1="102.0" x2="285.0" y2="116.0" stroke="#000000"/>
+  <path d="M285.0 124.0 L281.6 116.0 L288.4 116.0 Z" fill="#000000" stroke="none"/>
+  <rect x="233.0" y="126.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="285.0" y="143.8" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">self-attention</text>
+  <line x1="285.0" y1="154.0" x2="285.0" y2="168.0" stroke="#000000"/>
+  <path d="M285.0 176.0 L281.6 168.0 L288.4 168.0 Z" fill="#000000" stroke="none"/>
+  <circle cx="285" cy="188" r="12" stroke="#000000"/>
+  <line x1="279" y1="188" x2="291" y2="188" stroke="#000000"/>
+  <line x1="285" y1="182" x2="285" y2="194" stroke="#000000"/>
+  <path d="M285 50 L225 50 Q215 50 215 60 L215 178 Q215 188 225 188 L265 188" stroke="#0000ff" stroke-width="2"/>
+  <path d="M273.0 188.0 L265.0 191.4 L265.0 184.6 Z" fill="#0000ff" stroke="none"/>
+  <circle cx="285" cy="200" r="3" fill="#000000" stroke="none"/>
+  <line x1="285.0" y1="200.0" x2="285.0" y2="214.0" stroke="#000000"/>
+  <path d="M285.0 222.0 L281.6 214.0 L288.4 214.0 Z" fill="#000000" stroke="none"/>
+  <rect x="233.0" y="224.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="285.0" y="241.8" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">layer norm</text>
+  <line x1="285.0" y1="252.0" x2="285.0" y2="266.0" stroke="#000000"/>
+  <path d="M285.0 274.0 L281.6 266.0 L288.4 266.0 Z" fill="#000000" stroke="none"/>
+  <rect x="233.0" y="276.0" width="104.0" height="28.0" rx="4" stroke="#000000"/>
+  <text x="285.0" y="293.9" text-anchor="middle" font-size="11" font-style="normal" fill="#000000" stroke="none">feed-forward</text>
+  <line x1="285.0" y1="304.0" x2="285.0" y2="318.0" stroke="#000000"/>
+  <path d="M285.0 326.0 L281.6 318.0 L288.4 318.0 Z" fill="#000000" stroke="none"/>
+  <circle cx="285" cy="338" r="12" stroke="#000000"/>
+  <line x1="279" y1="338" x2="291" y2="338" stroke="#000000"/>
+  <line x1="285" y1="332" x2="285" y2="344" stroke="#000000"/>
+  <path d="M285 200 L225 200 Q215 200 215 210 L215 328 Q215 338 225 338 L265 338" stroke="#0000ff" stroke-width="2"/>
+  <path d="M273.0 338.0 L265.0 341.4 L265.0 334.6 Z" fill="#0000ff" stroke="none"/>
+  <line x1="285.0" y1="350.0" x2="285.0" y2="364.0" stroke="#000000"/>
+  <path d="M285.0 372.0 L281.6 364.0 L288.4 364.0 Z" fill="#000000" stroke="none"/>
+  <text x="285.0" y="386.0" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">output</text>
+</svg>

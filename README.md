@@ -1,8 +1,10 @@
 # Stemin Foundations
 
-This is a content repository for Stemin. It holds two
-domains: mathematics (`math/`) and physics (`phy/`). The physics domain covers electricity and
-magnetism, from charge to the electromagnetic wave.
+This is a content repository for Stemin. It holds one domain: `vom/`, "Vectors of meaning".
+The domain teaches the mathematics of transformers. It starts with vectors, derivatives and
+probability, and it ends with attention, the full transformer and the scaling laws.
+
+The text comes from the book "Vectors of meaning" by Valentin Radu.
 
 ## Use it
 
@@ -21,8 +23,8 @@ push:
 stemin check .
 ```
 
-The two domains stay in one repository on purpose. A reference from one domain to another works
-only inside one repository, and physics will need mathematics.
+The domain has three sections: `foundations`, `blocks` and `architecture`. Each section has its
+exams in `vom/checkpoints/`.
 
 This file is not content. The app reads only `index.md`, the directories that `order` names, and
 each domain's `checkpoints/`.

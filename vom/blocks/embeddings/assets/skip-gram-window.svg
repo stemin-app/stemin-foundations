@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 364 130" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>A window of size two around the center word</title>
+  <path d="M153 58 Q124 34 95 58"/>
+  <path d="M153 58 Q95 8 37 58"/>
+  <path d="M153 58 Q182 34 211 58"/>
+  <path d="M153 58 Q211 8 269 58"/>
+  <rect x="12" y="60" width="50" height="28" rx="4"/>
+  <rect x="70" y="60" width="50" height="28" rx="4"/>
+  <rect x="128" y="60" width="50" height="28" rx="4" stroke="#0000ff" stroke-width="2.4"/>
+  <rect x="186" y="60" width="50" height="28" rx="4"/>
+  <rect x="244" y="60" width="50" height="28" rx="4"/>
+  <rect x="302" y="60" width="50" height="28" rx="4" stroke-dasharray="3 3"/>
+  <text x="37" y="78" text-anchor="middle" font-size="12" fill="#000000" stroke="none">the</text>
+  <text x="95" y="78" text-anchor="middle" font-size="12" fill="#000000" stroke="none">cat</text>
+  <text x="153" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#000000" stroke="none">sat</text>
+  <text x="211" y="78" text-anchor="middle" font-size="12" fill="#000000" stroke="none">on</text>
+  <text x="269" y="78" text-anchor="middle" font-size="12" fill="#000000" stroke="none">the</text>
+  <text x="327" y="78" text-anchor="middle" font-size="12" fill="#000000" stroke="none">mat</text>
+  <path d="M12 98 L12 104 L294 104 L294 98"/>
+  <text x="153" y="120" text-anchor="middle" font-size="11" fill="#000000" stroke="none">the window, <tspan font-style="italic">c</tspan> = 2 on each side of the center word</text>
+</svg>

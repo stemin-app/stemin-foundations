@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 392" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Shapes through one encoder layer</title>
+  <text x="10" y="20" font-size="13" fill="#000000" stroke="none">each box is n rows tall; its width counts columns</text>
+  <rect x="10" y="38" width="70.0" height="22" stroke="#000000"/>
+  <text x="100" y="54" font-size="13" fill="#000000" stroke="none">n × 512: the input</text>
+  <line x1="16" y1="62" x2="16" y2="76" stroke="#000000"/>
+  <path d="M16 82 L12.5 75 L19.5 75 Z" fill="#000000" stroke="none"/>
+  <rect x="10" y="84" width="8.8" height="22" stroke="#000000"/>
+  <rect x="22.75" y="84" width="8.8" height="22" stroke="#000000"/>
+  <rect x="35.5" y="84" width="8.8" height="22" stroke="#000000"/>
+  <text x="100" y="100" font-size="13" fill="#000000" stroke="none">n × 64: Q, K, V of a head</text>
+  <line x1="16" y1="108" x2="16" y2="122" stroke="#000000"/>
+  <path d="M16 128 L12.5 121 L19.5 121 Z" fill="#000000" stroke="none"/>
+  <rect x="10" y="130" width="24" height="22" stroke="#000000"/>
+  <text x="100" y="146" font-size="13" fill="#000000" stroke="none">n × n: a head's weights</text>
+  <line x1="16" y1="154" x2="16" y2="168" stroke="#000000"/>
+  <path d="M16 174 L12.5 167 L19.5 167 Z" fill="#000000" stroke="none"/>
+  <rect x="10" y="176" width="8.8" height="22" stroke="#000000"/>
+  <text x="100" y="192" font-size="13" fill="#000000" stroke="none">n × 64: a head's output</text>
+  <line x1="16" y1="200" x2="16" y2="214" stroke="#000000"/>
+  <path d="M16 220 L12.5 213 L19.5 213 Z" fill="#000000" stroke="none"/>
+  <rect x="10" y="222" width="70" height="22" stroke="#000000"/>
+  <line x1="18.8" y1="222" x2="18.8" y2="244" stroke="#000000" stroke-width="1"/>
+  <line x1="27.5" y1="222" x2="27.5" y2="244" stroke="#000000" stroke-width="1"/>
+  <line x1="36.2" y1="222" x2="36.2" y2="244" stroke="#000000" stroke-width="1"/>
+  <line x1="45.0" y1="222" x2="45.0" y2="244" stroke="#000000" stroke-width="1"/>
+  <line x1="53.8" y1="222" x2="53.8" y2="244" stroke="#000000" stroke-width="1"/>
+  <line x1="62.5" y1="222" x2="62.5" y2="244" stroke="#000000" stroke-width="1"/>
+  <line x1="71.2" y1="222" x2="71.2" y2="244" stroke="#000000" stroke-width="1"/>
+  <text x="100" y="238" font-size="13" fill="#000000" stroke="none">n × 512: 8 heads side by side</text>
+  <line x1="16" y1="246" x2="16" y2="260" stroke="#000000"/>
+  <path d="M16 266 L12.5 259 L19.5 259 Z" fill="#000000" stroke="none"/>
+  <rect x="10" y="268" width="70.0" height="22" stroke="#000000"/>
+  <text x="100" y="284" font-size="13" fill="#000000" stroke="none">n × 512: projected, add, norm</text>
+  <line x1="16" y1="292" x2="16" y2="306" stroke="#000000"/>
+  <path d="M16 312 L12.5 305 L19.5 305 Z" fill="#000000" stroke="none"/>
+  <rect x="10" y="314" width="280.0" height="22" stroke="#0000ff"/>
+  <text x="18.0" y="330" font-size="13" fill="#0000ff" stroke="none">n × 2048: the FFN widens</text>
+  <line x1="16" y1="338" x2="16" y2="352" stroke="#000000"/>
+  <path d="M16 358 L12.5 351 L19.5 351 Z" fill="#000000" stroke="none"/>
+  <rect x="10" y="360" width="70.0" height="22" stroke="#000000"/>
+  <text x="100" y="376" font-size="13" fill="#000000" stroke="none">n × 512: add, norm</text>
+</svg>

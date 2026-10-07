@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 170" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>A one-hot vector selects one column of the transposed embedding matrix</title>
+  <rect x="20" y="44" width="150" height="72"/>
+  <line x1="50" y1="44" x2="50" y2="116" stroke-width="0.6"/>
+  <line x1="80" y1="44" x2="80" y2="116" stroke-width="0.6"/>
+  <line x1="110" y1="44" x2="110" y2="116" stroke-width="0.6"/>
+  <line x1="140" y1="44" x2="140" y2="116" stroke-width="0.6"/>
+  <line x1="20" y1="68" x2="170" y2="68" stroke-width="0.6"/>
+  <line x1="20" y1="92" x2="170" y2="92" stroke-width="0.6"/>
+  <rect x="110" y="44" width="30" height="72" stroke="#0000ff" stroke-width="2.4"/>
+  <text x="95" y="34" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000" stroke="none">E<tspan font-size="9" baseline-shift="super" font-weight="normal">T</tspan></text>
+  <text x="95" y="134" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">d × V</text>
+  <text x="125" y="152" text-anchor="middle" font-size="11" fill="#000000" stroke="none">column <tspan font-style="italic">i</tspan></text>
+  <text x="187" y="85" text-anchor="middle" font-size="14" fill="#000000" stroke="none">·</text>
+  <rect x="200" y="20" width="24" height="120"/>
+  <line x1="200" y1="44" x2="224" y2="44" stroke-width="0.6"/>
+  <line x1="200" y1="68" x2="224" y2="68" stroke-width="0.6"/>
+  <line x1="200" y1="92" x2="224" y2="92" stroke-width="0.6"/>
+  <line x1="200" y1="116" x2="224" y2="116" stroke-width="0.6"/>
+  <rect x="200" y="92" width="24" height="24" stroke="#0000ff" stroke-width="2.4"/>
+  <text x="212" y="36" text-anchor="middle" font-size="12" fill="#000000" stroke="none">0</text>
+  <text x="212" y="60" text-anchor="middle" font-size="12" fill="#000000" stroke="none">0</text>
+  <text x="212" y="84" text-anchor="middle" font-size="12" fill="#000000" stroke="none">0</text>
+  <text x="212" y="108" text-anchor="middle" font-size="12" font-weight="bold" fill="#000000" stroke="none">1</text>
+  <text x="212" y="132" text-anchor="middle" font-size="12" fill="#000000" stroke="none">0</text>
+  <text x="212" y="12" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000" stroke="none">x</text>
+  <text x="212" y="158" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">V × 1</text>
+  <text x="250" y="86" text-anchor="middle" font-size="16" fill="#000000" stroke="none">=</text>
+  <rect x="276" y="44" width="24" height="72" stroke="#0000ff" stroke-width="2.4"/>
+  <line x1="276" y1="68" x2="300" y2="68" stroke-width="0.6"/>
+  <line x1="276" y1="92" x2="300" y2="92" stroke-width="0.6"/>
+  <text x="288" y="34" text-anchor="middle" font-size="14" font-weight="bold" fill="#000000" stroke="none">e<tspan font-size="9" baseline-shift="sub" font-weight="normal" font-style="italic">i</tspan></text>
+  <text x="288" y="134" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">d × 1</text>
+</svg>

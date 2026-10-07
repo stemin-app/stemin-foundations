@@ -1,6 +1,6 @@
 ---
 format: 2.0.0
 author: Valentin Radu
-description: Mathematics and physics, from first principles to exam practice.
-order: [math, phy]
+description: The mathematics of transformers, from vectors and derivatives to attention and scaling laws.
+order: [vom]
 ---

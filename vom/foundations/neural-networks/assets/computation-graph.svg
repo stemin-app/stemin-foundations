@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 388" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>The computation graph of a two-layer network</title>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#000000" stroke="none"/></marker>
+  <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#0000ff" stroke="none"/></marker></defs>
+  <rect x="118.0" y="40" width="64" height="28" rx="5"/>
+  <text x="150" y="59" text-anchor="middle" font-size="15" font-style="italic" fill="#000000" stroke="none">x</text>
+  <line x1="150" y1="68" x2="150" y2="95" marker-end="url(#a)"/>
+  <text x="158" y="86" text-anchor="start" font-size="12" fill="#000000" stroke="none">linear</text>
+  <rect x="118.0" y="96" width="64" height="28" rx="5"/>
+  <text x="150" y="115" text-anchor="middle" font-size="15" font-style="italic" fill="#000000" stroke="none">z⁽¹⁾</text>
+  <line x1="150" y1="124" x2="150" y2="151" marker-end="url(#a)"/>
+  <text x="158" y="142" text-anchor="start" font-size="12" fill="#000000" stroke="none">ReLU</text>
+  <rect x="118.0" y="152" width="64" height="28" rx="5"/>
+  <text x="150" y="171" text-anchor="middle" font-size="15" font-style="italic" fill="#000000" stroke="none">h⁽¹⁾</text>
+  <line x1="150" y1="180" x2="150" y2="207" marker-end="url(#a)"/>
+  <text x="158" y="198" text-anchor="start" font-size="12" fill="#000000" stroke="none">linear</text>
+  <rect x="118.0" y="208" width="64" height="28" rx="5"/>
+  <text x="150" y="227" text-anchor="middle" font-size="15" font-style="italic" fill="#000000" stroke="none">z⁽²⁾</text>
+  <line x1="150" y1="236" x2="150" y2="263" marker-end="url(#a)"/>
+  <text x="158" y="254" text-anchor="start" font-size="12" fill="#000000" stroke="none">σ</text>
+  <rect x="118.0" y="264" width="64" height="28" rx="5"/>
+  <text x="150" y="283" text-anchor="middle" font-size="15" font-style="italic" fill="#000000" stroke="none">ŷ</text>
+  <line x1="150" y1="292" x2="150" y2="319" marker-end="url(#a)"/>
+  <text x="158" y="310" text-anchor="start" font-size="12" fill="#000000" stroke="none">loss</text>
+  <rect x="118.0" y="320" width="64" height="28" rx="5"/>
+  <text x="150" y="339" text-anchor="middle" font-size="15" font-style="italic" fill="#000000" stroke="none">L</text>
+  <line x1="78.0" y1="110.0" x2="117.0" y2="110.0" marker-end="url(#a)"/>
+  <text x="74.0" y="115.0" text-anchor="end" font-size="13" font-style="italic" fill="#000000" stroke="none">W⁽¹⁾, b⁽¹⁾</text>
+  <line x1="78.0" y1="222.0" x2="117.0" y2="222.0" marker-end="url(#a)"/>
+  <text x="74.0" y="227.0" text-anchor="end" font-size="13" font-style="italic" fill="#000000" stroke="none">W⁽²⁾, b⁽²⁾</text>
+  <line x1="78.0" y1="334.0" x2="117.0" y2="334.0" marker-end="url(#a)"/>
+  <text x="74.0" y="339.0" text-anchor="end" font-size="13" font-style="italic" fill="#000000" stroke="none">y</text>
+  <path d="M182.0 334.0 L252.0 334.0 L252.0 110.0" stroke="#0000ff" stroke-dasharray="5 4"/>
+  <line x1="252.0" y1="278.0" x2="183.0" y2="278.0" stroke="#0000ff" marker-end="url(#b)"/>
+  <line x1="252.0" y1="222.0" x2="183.0" y2="222.0" stroke="#0000ff" marker-end="url(#b)"/>
+  <line x1="252.0" y1="166.0" x2="183.0" y2="166.0" stroke="#0000ff" marker-end="url(#b)"/>
+  <line x1="252.0" y1="110.0" x2="183.0" y2="110.0" stroke="#0000ff" marker-end="url(#b)"/>
+  <text x="258.0" y="216.0" text-anchor="start" font-size="14" font-style="italic" fill="#0000ff" stroke="none">δ⁽²⁾</text>
+  <text x="258.0" y="104.0" text-anchor="start" font-size="14" font-style="italic" fill="#0000ff" stroke="none">δ⁽¹⁾</text>
+  <text x="150" y="22" text-anchor="middle" font-size="12" fill="#000000" stroke="none">forward: the values, top to bottom</text>
+  <text x="170" y="376" text-anchor="middle" font-size="12" fill="#0000ff" stroke="none">backward, in blue: from L up to z⁽¹⁾</text>
+</svg>

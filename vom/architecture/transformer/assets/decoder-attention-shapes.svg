@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 346" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Masked self-attention and cross-attention</title>
+  <text x="170" y="22" text-anchor="middle" font-size="14" fill="#000000" stroke="none">masked self-attention, m × m</text>
+  <text x="95.0" y="46" text-anchor="middle" font-size="12" fill="#000000" stroke="none">[START]</text>
+  <text x="133.0" y="46" text-anchor="middle" font-size="12" fill="#000000" stroke="none">Le</text>
+  <text x="171.0" y="46" text-anchor="middle" font-size="12" fill="#000000" stroke="none">chat</text>
+  <text x="70" y="69" text-anchor="end" font-size="12" fill="#000000" stroke="none">[START]</text>
+  <rect x="76" y="52" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="95.0" cy="65.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="114" y="52" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <text x="133.0" y="69" text-anchor="middle" font-size="12" fill="#000000" stroke="none">−∞</text>
+  <rect x="152" y="52" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <text x="171.0" y="69" text-anchor="middle" font-size="12" fill="#000000" stroke="none">−∞</text>
+  <text x="70" y="95" text-anchor="end" font-size="12" fill="#000000" stroke="none">Le</text>
+  <rect x="76" y="78" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="95.0" cy="91.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="114" y="78" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="133.0" cy="91.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="152" y="78" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <text x="171.0" y="95" text-anchor="middle" font-size="12" fill="#000000" stroke="none">−∞</text>
+  <text x="70" y="121" text-anchor="end" font-size="12" fill="#000000" stroke="none">chat</text>
+  <rect x="76" y="104" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="95.0" cy="117.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="114" y="104" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="133.0" cy="117.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="152" y="104" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="171.0" cy="117.0" r="4" fill="#0000ff" stroke="none"/>
+  <text x="170" y="148" text-anchor="middle" font-size="12" fill="#000000" stroke="none">queries and keys: the target</text>
+  <text x="170" y="186" text-anchor="middle" font-size="14" fill="#000000" stroke="none">cross-attention, m × n</text>
+  <text x="95.0" y="210" text-anchor="middle" font-size="12" fill="#000000" stroke="none">The</text>
+  <text x="133.0" y="210" text-anchor="middle" font-size="12" fill="#000000" stroke="none">cat</text>
+  <text x="171.0" y="210" text-anchor="middle" font-size="12" fill="#000000" stroke="none">sat</text>
+  <text x="209.0" y="210" text-anchor="middle" font-size="12" fill="#000000" stroke="none">on</text>
+  <text x="247.0" y="210" text-anchor="middle" font-size="12" fill="#000000" stroke="none">the</text>
+  <text x="285.0" y="210" text-anchor="middle" font-size="12" fill="#000000" stroke="none">mat</text>
+  <text x="70" y="233" text-anchor="end" font-size="12" fill="#000000" stroke="none">[START]</text>
+  <rect x="76" y="216" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="95.0" cy="229.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="114" y="216" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="133.0" cy="229.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="152" y="216" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="171.0" cy="229.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="190" y="216" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="209.0" cy="229.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="228" y="216" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="247.0" cy="229.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="266" y="216" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="285.0" cy="229.0" r="4" fill="#0000ff" stroke="none"/>
+  <text x="70" y="259" text-anchor="end" font-size="12" fill="#000000" stroke="none">Le</text>
+  <rect x="76" y="242" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="95.0" cy="255.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="114" y="242" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="133.0" cy="255.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="152" y="242" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="171.0" cy="255.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="190" y="242" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="209.0" cy="255.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="228" y="242" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="247.0" cy="255.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="266" y="242" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="285.0" cy="255.0" r="4" fill="#0000ff" stroke="none"/>
+  <text x="70" y="285" text-anchor="end" font-size="12" fill="#000000" stroke="none">chat</text>
+  <rect x="76" y="268" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="95.0" cy="281.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="114" y="268" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="133.0" cy="281.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="152" y="268" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="171.0" cy="281.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="190" y="268" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="209.0" cy="281.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="228" y="268" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="247.0" cy="281.0" r="4" fill="#0000ff" stroke="none"/>
+  <rect x="266" y="268" width="38" height="26" stroke="#000000" stroke-width="0.8"/>
+  <circle cx="285.0" cy="281.0" r="4" fill="#0000ff" stroke="none"/>
+  <text x="170" y="312" text-anchor="middle" font-size="12" fill="#000000" stroke="none">queries: the target; keys: the source</text>
+  <text x="170" y="334" text-anchor="middle" font-size="12" fill="#000000" stroke="none">a dot: a weight above zero</text>
+</svg>

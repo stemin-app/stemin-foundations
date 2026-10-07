@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 290" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>The attention matrix of The cat sat</title>
+  <text x="185.0" y="16.0" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">attends to</text>
+  <text x="115.0" y="40.0" text-anchor="middle" font-size="12" font-style="normal" fill="#000000" stroke="none">The</text>
+  <text x="185.0" y="40.0" text-anchor="middle" font-size="12" font-style="normal" fill="#000000" stroke="none">cat</text>
+  <text x="255.0" y="40.0" text-anchor="middle" font-size="12" font-style="normal" fill="#000000" stroke="none">sat</text>
+  <text x="14.0" y="159.0" text-anchor="start" font-size="11" font-style="italic" fill="#000000" stroke="none">token</text>
+  <text x="70.0" y="89.0" text-anchor="end" font-size="12" font-style="normal" fill="#000000" stroke="none">The</text>
+  <text x="70.0" y="159.0" text-anchor="end" font-size="12" font-style="normal" fill="#000000" stroke="none">cat</text>
+  <text x="70.0" y="229.0" text-anchor="end" font-size="12" font-style="normal" fill="#000000" stroke="none">sat</text>
+  <line x1="80" y1="50" x2="290" y2="50" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="80" y1="50" x2="80" y2="260" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="80" y1="120" x2="290" y2="120" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="150" y1="50" x2="150" y2="260" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="80" y1="190" x2="290" y2="190" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="220" y1="50" x2="220" y2="260" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="80" y1="260" x2="290" y2="260" stroke="#1a1a1a" stroke-width="0.8"/>
+  <line x1="290" y1="50" x2="290" y2="260" stroke="#1a1a1a" stroke-width="0.8"/>
+  <rect x="94.1" y="58.1" width="41.8" height="41.8" fill="#000000" stroke="none"/>
+  <text x="115.0" y="115.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.70</text>
+  <rect x="175.3" y="69.3" width="19.4" height="19.4" fill="#000000" stroke="none"/>
+  <text x="185.0" y="115.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.15</text>
+  <rect x="245.3" y="69.3" width="19.4" height="19.4" fill="#000000" stroke="none"/>
+  <text x="255.0" y="115.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.15</text>
+  <rect x="107.1" y="141.1" width="15.8" height="15.8" fill="#000000" stroke="none"/>
+  <text x="115.0" y="185.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.10</text>
+  <rect x="165.6" y="129.6" width="38.7" height="38.7" fill="#000000" stroke="none"/>
+  <text x="185.0" y="185.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.60</text>
+  <rect x="241.3" y="135.3" width="27.4" height="27.4" fill="#000000" stroke="none"/>
+  <text x="255.0" y="185.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.30</text>
+  <rect x="109.4" y="213.4" width="11.2" height="11.2" fill="#000000" stroke="none"/>
+  <text x="115.0" y="255.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.05</text>
+  <rect x="163.3" y="197.3" width="43.3" height="43.3" fill="#0000ff" stroke="none"/>
+  <text x="185.0" y="255.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.75</text>
+  <rect x="243.8" y="207.8" width="22.4" height="22.4" fill="#000000" stroke="none"/>
+  <text x="255.0" y="255.0" text-anchor="middle" font-size="10" font-style="normal" fill="#000000" stroke="none">0.20</text>
+  <text x="185.0" y="280.0" text-anchor="middle" font-size="11" font-style="italic" fill="#000000" stroke="none">each row sums to 1</text>
+</svg>

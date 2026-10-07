@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 80 380 170" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>Lifting the parts into three dimensions</title>
+  <line x1="60.0" y1="220.0" x2="239.2" y2="220.0" stroke="#1a1a1a"/>
+  <path d="M247.2 220.0 L239.2 223.4 L239.2 216.6 Z" fill="#1a1a1a" stroke="none"/>
+  <text x="253.2" y="224.0" text-anchor="start" font-size="11" font-style="italic" fill="#000000" stroke="none">size</text>
+  <line x1="60.0" y1="220.0" x2="155.5" y2="149.9" stroke="#1a1a1a"/>
+  <path d="M162.0 145.2 L157.6 152.7 L153.5 147.2 Z" fill="#1a1a1a" stroke="none"/>
+  <text x="156.0" y="143.2" text-anchor="end" font-size="11" font-style="italic" fill="#000000" stroke="none">weight</text>
+  <line x1="60.0" y1="220.0" x2="60.0" y2="108.0" stroke="#1a1a1a"/>
+  <path d="M60.0 100.0 L63.4 108.0 L56.6 108.0 Z" fill="#1a1a1a" stroke="none"/>
+  <text x="66.0" y="104.0" text-anchor="start" font-size="11" font-style="italic" fill="#000000" stroke="none">gap |weight − size|</text>
+  <line x1="112.0" y1="220.0" x2="187.0" y2="165.0" stroke="#1a1a1a" stroke-width="0.6"/>
+  <line x1="164.0" y1="220.0" x2="239.0" y2="165.0" stroke="#1a1a1a" stroke-width="0.6"/>
+  <line x1="216.0" y1="220.0" x2="291.0" y2="165.0" stroke="#1a1a1a" stroke-width="0.6"/>
+  <line x1="90.0" y1="198.0" x2="246.0" y2="198.0" stroke="#1a1a1a" stroke-width="0.6"/>
+  <line x1="120.0" y1="176.0" x2="276.0" y2="176.0" stroke="#1a1a1a" stroke-width="0.6"/>
+  <line x1="84.6" y1="213.4" x2="265.0" y2="165.0" stroke="#1a1a1a" stroke-dasharray="4 4"/>
+  <path d="M60.0 205.0 L226.4 205.0 L301.4 150.0 L135.0 150.0 Z" stroke="#0000ff" stroke-dasharray="6 4" fill="#0000ff" fill-opacity="0.08"/>
+  <text x="297.4" y="142.0" text-anchor="start" font-size="11" font-style="italic" fill="#000000" stroke="none">threshold</text>
+  <line x1="127.0" y1="209.0" x2="127.0" y2="179.0" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="2 3"/>
+  <circle cx="127.0" cy="179.0" r="5" fill="none" stroke="#000000" stroke-width="2"/>
+  <line x1="220.0" y1="198.0" x2="220.0" y2="108.0" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="2 3"/>
+  <circle cx="220.0" cy="108.0" r="5" fill="none" stroke="#000000" stroke-width="2"/>
+  <line x1="172.0" y1="176.0" x2="172.0" y2="116.0" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="2 3"/>
+  <circle cx="172.0" cy="116.0" r="5" fill="none" stroke="#000000" stroke-width="2"/>
+  <circle cx="142.0" cy="198.0" r="5" fill="#000000" stroke="#000000"/>
+  <circle cx="224.0" cy="176.0" r="5" fill="#000000" stroke="#000000"/>
+  <circle cx="70" cy="238" r="5" fill="none" stroke="#000000" stroke-width="2"/>
+  <text x="82.0" y="242.0" text-anchor="start" font-size="11" font-style="normal" fill="#000000" stroke="none">good part</text>
+  <circle cx="190" cy="238" r="5" fill="#000000" stroke="#000000"/>
+  <text x="202.0" y="242.0" text-anchor="start" font-size="11" font-style="normal" fill="#000000" stroke="none">defect</text>
+</svg>

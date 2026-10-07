@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 170" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+  <title>The three stages of RLHF</title>
+  <rect x="10" y="30" width="160" height="60" rx="4" stroke="#000000"/>
+  <text x="90.0" y="56" text-anchor="middle" font-size="16.9" fill="#000000" stroke="none">1. Collect</text>
+  <text x="90.0" y="74" text-anchor="middle" font-size="16.9" fill="#000000" stroke="none">preferences</text>
+  <text x="90.0" y="118" text-anchor="middle" font-size="14.3" fill="#0000ff" stroke="none">trains nothing</text>
+  <text x="90.0" y="136" text-anchor="middle" font-size="14.3" fill="#000000" stroke="none">humans compare</text>
+  <line x1="174" y1="60.0" x2="188" y2="60.0" stroke="#000000"/>
+  <path d="M196 60.0 L187 56.0 L187 64.0 Z" fill="#000000" stroke="none"/>
+  <rect x="200" y="30" width="160" height="60" rx="4" stroke="#000000"/>
+  <text x="280.0" y="56" text-anchor="middle" font-size="16.9" fill="#000000" stroke="none">2. Train the</text>
+  <text x="280.0" y="74" text-anchor="middle" font-size="16.9" fill="#000000" stroke="none">reward model</text>
+  <text x="280.0" y="118" text-anchor="middle" font-size="14.3" fill="#0000ff" stroke="none">trains the reward model</text>
+  <text x="280.0" y="136" text-anchor="middle" font-size="14.3" fill="#000000" stroke="none">language model frozen</text>
+  <line x1="364" y1="60.0" x2="378" y2="60.0" stroke="#000000"/>
+  <path d="M386 60.0 L377 56.0 L377 64.0 Z" fill="#000000" stroke="none"/>
+  <rect x="390" y="30" width="160" height="60" rx="4" stroke="#000000"/>
+  <text x="470.0" y="56" text-anchor="middle" font-size="16.9" fill="#000000" stroke="none">3. Optimize</text>
+  <text x="470.0" y="74" text-anchor="middle" font-size="16.9" fill="#000000" stroke="none">the policy</text>
+  <text x="470.0" y="118" text-anchor="middle" font-size="14.3" fill="#0000ff" stroke="none">trains the language model</text>
+  <text x="470.0" y="136" text-anchor="middle" font-size="14.3" fill="#000000" stroke="none">reward model frozen</text>
+</svg>
