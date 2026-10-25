@@ -52,7 +52,7 @@ $d$-wide vector with bounded values, give nearby positions similar vectors, and 
 position, seen in training or not.
 :::
 
-::: exercise q1
+::: flashcard q1
 A token has the embedding $\mathbf{e} = (0.5, -0.2, 0.1)$ and its position has the encoding
 $\mathbf{p} = (0, 1, 0)$. What is the input vector $\mathbf{x}$?
 
@@ -61,7 +61,7 @@ $(0.5, 0.8, 0.1)$. Add the two vectors coordinate by coordinate.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Embeddings are 512 wide. How wide is the input if you append a 512-wide position vector, and how
 wide if you add it?
 
@@ -70,7 +70,7 @@ wide if you add it?
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 The same word appears at positions 3 and 7. What is $\mathbf{x}_7 - \mathbf{x}_3$?
 
 ::: answer

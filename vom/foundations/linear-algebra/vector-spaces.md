@@ -101,7 +101,7 @@ thought. A transformer adds vectors all the time to combine information, and sca
 adjust their size. The rules guarantee that both operations behave the same way every time.
 :::
 
-::: exercise q1
+::: flashcard q1
 Let $\mathbf{u} = \begin{bmatrix} 1 \\ 3 \end{bmatrix}$ and
 $\mathbf{v} = \begin{bmatrix} 4 \\ -1 \end{bmatrix}$. Compute $2\mathbf{u} - \mathbf{v}$.
 
@@ -119,7 +119,7 @@ $$ 2\mathbf{u} - \mathbf{v} = \begin{bmatrix} 2 - 4 \\ 6 - (-1) \end{bmatrix} = 
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Take the set of all vectors in $\mathbb{R}^2$ whose second component is 1. Is it a vector space?
 
 ::: answer
@@ -136,7 +136,7 @@ The sum is not in the set, so the set is not closed under addition. ∎
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 For $\mathbf{v} = \begin{bmatrix} 4 & 0 & -2 & 7 \end{bmatrix}^T$, what is $[\mathbf{v}]_3$, and
 which set does $\mathbf{v}$ belong to?
 

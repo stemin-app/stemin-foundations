@@ -57,7 +57,7 @@ signal below its threshold gives nothing to extrapolate, so in practice new abil
 training the larger model and testing it.
 :::
 
-::: exercise q1
+::: flashcard q1
 A task needs 5 steps in a row, each right with probability 0.8. What is the chance the whole task
 succeeds? And at 0.95 per step?
 
@@ -72,7 +72,7 @@ $0.95^5 = 0.774$. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Why can a metric of exact-match accuracy show a jump while the loss falls smoothly?
 
 ::: answer

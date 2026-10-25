@@ -74,7 +74,7 @@ vectors. The decoder reads [START], "Le", "chat". From [START] it should predict
 "Le" to "The" and "chat" to "cat", and nobody tells it to.
 :::
 
-::: exercise heads-and-head-size
+::: flashcard heads-and-head-size
 A transformer has $d_{model} = 768$ and $h = 12$ heads. What is the size $d_k$ of one head?
 
 ::: answer
@@ -88,7 +88,7 @@ $$ d_k = \frac{d_{model}}{h} = \frac{768}{12} = 64 $$
 :::
 :::
 
-::: exercise why-positions-are-added
+::: flashcard why-positions-are-added
 Without positional encoding, the encoder output for "dog bites man" holds the same set of
 vectors as the one for "man bites dog". Why?
 
@@ -98,7 +98,7 @@ input rows and the output rows permute the same way.
 :::
 :::
 
-::: exercise predictions-per-target
+::: flashcard predictions-per-target
 The decoder reads the $m = 4$ target tokens [START], "Le", "chat", "dort". How many
 probability distributions over the vocabulary does one forward pass produce?
 

@@ -46,7 +46,7 @@ So the extra heads come free. With the same compute and the same parameters as o
 layer computes $h$ separate attention patterns in place of one.
 :::
 
-::: exercise q1
+::: flashcard q1
 A layer has $d_\text{model} = 768$ and $h = 12$ heads of width 64, with no biases. How many
 parameters do its four kinds of matrix hold in total?
 
@@ -65,7 +65,7 @@ $$ 1{,}769{,}472 + 589{,}824 = 2{,}359{,}296 = 4 \times 768^2 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A layer with $d_\text{model} = 512$ uses $h = 4$ heads that are each 512 wide. How many parameters
 does it hold, with no biases?
 
@@ -84,7 +84,7 @@ $$ 3{,}145{,}728 + 1{,}048{,}576 = 4{,}194{,}304 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 With $d_\text{model} = 512$ and $h = 8$ heads of width 64, how many multiplications do all the
 heads spend on the scores of one pair of tokens?
 

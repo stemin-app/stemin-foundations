@@ -93,7 +93,7 @@ entry, for the correct class, raises it. Each step moves probability away from t
 and onto the right one, with no extra rule.
 :::
 
-::: exercise q1
+::: flashcard q1
 A model gives the correct class a probability of 0.25. What is its cross-entropy loss?
 
 ::: answer
@@ -101,7 +101,7 @@ $-\log 0.25 \approx 1.386$. With a one-hot target, the loss is the surprise of t
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 The truth is $p = [0.5,\ 0.5]$ and the model is $q = [0.25,\ 0.75]$. What is $H(p, q)$?
 
 ::: answer
@@ -117,7 +117,7 @@ $$ H(p, q) = 0.5 \times 1.386 + 0.5 \times 0.288 = 0.693 + 0.144 = 0.837 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A softmax model predicts $q = [0.2,\ 0.5,\ 0.3]$, and the true class is the second. What is the
 gradient of the cross-entropy loss with respect to the three logits?
 
@@ -132,7 +132,7 @@ $$ q - p = [0.2 - 0,\ 0.5 - 1,\ 0.3 - 0] = [0.2,\ -0.5,\ 0.3] $$
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 A model has a cross-entropy loss of $\log 2 \approx 0.693$ on one example with a one-hot target.
 What probability did it give the correct class?
 

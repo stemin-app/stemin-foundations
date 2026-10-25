@@ -99,7 +99,7 @@ and "bark". Both center vectors are pulled toward the same context vectors, so t
 to each other.
 :::
 
-::: exercise skip-gram-pairs-on
+::: flashcard skip-gram-pairs-on
 In "the cat sat on the mat" with $c = 2$, list the (center, context) pairs whose center is "on".
 
 ::: answer
@@ -107,7 +107,7 @@ In "the cat sat on the mat" with $c = 2$, list the (center, context) pairs whose
 :::
 :::
 
-::: exercise skip-gram-pair-count
+::: flashcard skip-gram-pair-count
 How many (center, context) pairs does "the cat sat on the mat" give with $c = 1$?
 
 ::: answer
@@ -125,7 +125,7 @@ $$ 2 + 8 = 10 $$
 :::
 :::
 
-::: exercise skip-gram-softmax-three
+::: flashcard skip-gram-softmax-three
 A vocabulary has 3 words. For a center word, the dot products with the three context vectors are
 2, 0 and 0. What is $P(w_o \mid w_c)$ for the word with dot product 2?
 

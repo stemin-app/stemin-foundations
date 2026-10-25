@@ -80,7 +80,7 @@ as $\frac{0}{0}$ if you compute it directly, just like $f(1)$ above, and a limit
 That rate is the derivative.
 :::
 
-::: exercise limit-difference-of-squares
+::: flashcard limit-difference-of-squares
 Find $\displaystyle \lim_{x \to 2} \frac{x^2 - 4}{x - 2}$.
 
 ::: answer
@@ -96,7 +96,7 @@ $$ \lim_{x \to 2} (x + 2) = 4 $$
 :::
 :::
 
-::: exercise limit-negative-point
+::: flashcard limit-negative-point
 Find $\displaystyle \lim_{x \to -3} \frac{x^2 - 9}{x + 3}$.
 
 ::: answer
@@ -112,7 +112,7 @@ $$ \lim_{x \to -3} (x - 3) = -6 $$
 :::
 :::
 
-::: exercise limit-cubic
+::: flashcard limit-cubic
 Find $\displaystyle \lim_{x \to 1} \frac{x^3 - 1}{x - 1}$.
 
 ::: answer
@@ -128,7 +128,7 @@ $$ \lim_{x \to 1} (x^2 + x + 1) = 1 + 1 + 1 = 3 $$
 :::
 :::
 
-::: exercise limit-sign-function
+::: flashcard limit-sign-function
 Does $\displaystyle \lim_{x \to 0} \frac{|x|}{x}$ exist?
 
 ::: answer

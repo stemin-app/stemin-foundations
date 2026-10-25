@@ -58,7 +58,7 @@ Emergence argues for scaling in steps, with an evaluation at each one, since a m
 frontier may do things no one has tested.
 :::
 
-::: exercise q1
+::: flashcard q1
 You have $1.2 \times 10^{22}$ FLOPs. What model size and how many tokens does the 20 tokens per
 parameter rule give?
 
@@ -67,7 +67,7 @@ parameter rule give?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A new method has an effective compute multiplier of 4. With $\alpha_C = 0.05$, by what factor does
 it lower the loss at a fixed budget?
 

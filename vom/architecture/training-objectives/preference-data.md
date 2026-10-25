@@ -57,7 +57,7 @@ output. The representation of the final token passes through that layer to give 
 In this stage only $\phi$ trains.
 :::
 
-::: exercise pref-pair-count
+::: flashcard pref-pair-count
 For one prompt you sample $k = 4$ responses and ask annotators to compare every pair. How many
 comparisons is that?
 
@@ -70,7 +70,7 @@ $\frac{4 \times 3}{2} = 6$ ∎
 :::
 :::
 
-::: exercise pref-stage-two
+::: flashcard pref-stage-two
 Which weights change in the second stage of RLHF?
 
 ::: answer
@@ -78,7 +78,7 @@ Only the reward model's, $\phi$. The language model is frozen.
 :::
 :::
 
-::: exercise pref-head-size
+::: flashcard pref-head-size
 The reward model's final layer maps a representation of size $d = 4096$ to one number, with a bias.
 How many numbers does that layer hold?
 

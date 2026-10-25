@@ -39,7 +39,7 @@ the residual connection. Its gradient path multiplies by the identity, not by a 
 depth no longer shrinks or grows the signal along it.
 :::
 
-::: exercise q1
+::: flashcard q1
 Each of 12 layers multiplies the gradient by 0.7. What fraction reaches the first layer?
 
 ::: answer
@@ -47,7 +47,7 @@ About 0.014. $0.7^{12} \approx 0.0138$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 For which factor per layer does the gradient keep its size at any depth?
 
 ::: answer

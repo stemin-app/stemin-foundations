@@ -72,7 +72,7 @@ $e^{1.0} \approx 2.7$ and $e^{1.8} \approx 6.0$. That spread is the uncertainty 
 language model can ever become.
 :::
 
-::: exercise irreducible-tenfold
+::: flashcard irreducible-tenfold
 A model has a loss of 2.1 nats, and the floor is $L_\infty = 1.5$ nats. The reducible part
 follows $N^{-0.076}$. What is the loss after the model grows ten times?
 
@@ -91,7 +91,7 @@ $$ L' = 1.5 + 0.504 = 2.00\ \text{nats} $$
 :::
 :::
 
-::: exercise irreducible-perplexity
+::: flashcard irreducible-perplexity
 If the floor is $L_\infty = 1.0$ nat, what is the perplexity of a perfect model?
 
 ::: answer
@@ -99,7 +99,7 @@ $e \approx 2.72$. Perplexity is $e$ raised to the loss in nats.
 :::
 :::
 
-::: exercise irreducible-bend
+::: flashcard irreducible-bend
 On log-log axes, why does the curve of $L$ against $N$ bend near $L_\infty$, while the curve of
 $L - L_\infty$ stays straight?
 

@@ -34,7 +34,7 @@ Scaled: $[0.577, 0.577, 1.155]$. Softmax: $[0.264, 0.264, 0.471]$. Times $\mathb
 the same as before.
 :::
 
-::: exercise q1
+::: flashcard q1
 $\mathbf{Q}$ is $10 \times 64$, $\mathbf{K}$ is $12 \times 64$ and $\mathbf{V}$ is $12 \times 32$.
 What are the shapes of the score matrix and of the output?
 
@@ -43,7 +43,7 @@ The scores are $10 \times 12$ and the output is $10 \times 32$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Along which direction is the softmax applied to the score matrix, and what does each row of the
 result add up to?
 

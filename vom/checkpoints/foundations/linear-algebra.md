@@ -4,7 +4,7 @@ title: Linear algebra
 
 Answer every question without notes. Show the working for each number.
 
-::: exercise q1
+::: question q1
 Let $\mathbf{u} = [2, -1, 0]^T$ and $\mathbf{v} = [1, 3, 4]^T$. Compute $3\mathbf{u} + \mathbf{v}$
 and $\mathbf{u} \cdot \mathbf{v}$.
 
@@ -19,7 +19,7 @@ $\mathbf{u} \cdot \mathbf{v} = 2 \cdot 1 + (-1) \cdot 3 + 0 \cdot 4 = -1$. ∎
 :::
 :::
 
-::: exercise q2
+::: question q2
 Is the map $f([v_1, v_2]^T) = [v_1 + 1, v_2]^T$ linear? Justify in one line.
 
 ::: answer
@@ -27,7 +27,7 @@ No. $f(\mathbf{0}) = [1, 0]^T$, and a linear map sends zero to zero.
 :::
 :::
 
-::: exercise q3
+::: question q3
 Find the angle between $[1, 1, 0]^T$ and $[0, 1, 1]^T$.
 
 ::: answer
@@ -43,7 +43,7 @@ $\cos\theta = 1 / (\sqrt{2} \cdot \sqrt{2}) = 1/2$, so $\theta = 60°$. ∎
 :::
 :::
 
-::: exercise q4
+::: question q4
 Compute $\mathbf{A}\mathbf{B}$ and $\mathbf{B}\mathbf{A}$ for
 $\mathbf{A} = \begin{bmatrix} 1 & 1 \\ 0 & 1 \end{bmatrix}$ and
 $\mathbf{B} = \begin{bmatrix} 2 & 0 \\ 0 & 1 \end{bmatrix}$.
@@ -60,7 +60,7 @@ $\mathbf{B}\mathbf{A}$: row $[2, 0]$ with the columns $[1, 0]^T$, $[1, 1]^T$ giv
 :::
 :::
 
-::: exercise q5
+::: question q5
 Find the coordinates of $[4, 2]^T$ in the basis $\mathbf{b}_1 = [1, 1]^T$,
 $\mathbf{b}_2 = [1, -1]^T$.
 
@@ -77,7 +77,7 @@ Check: $3[1, 1]^T + [1, -1]^T = [4, 2]^T$. ∎
 :::
 :::
 
-::: exercise q6
+::: question q6
 What are the rank and the determinant of $\begin{bmatrix} 3 & 6 \\ 1 & 2 \end{bmatrix}$? Does it
 have an inverse?
 
@@ -86,7 +86,7 @@ Rank 1, determinant 0, no inverse. The second column is twice the first.
 :::
 :::
 
-::: exercise q7
+::: question q7
 Find the eigenvalues and one eigenvector for each, of $\begin{bmatrix} 3 & 0 \\ 1 & 2 \end{bmatrix}$.
 
 ::: answer
@@ -104,7 +104,7 @@ Check: $\mathbf{A}[1, 1]^T = [3, 3]^T$ and $\mathbf{A}[0, 1]^T = [0, 2]^T$. ∎
 :::
 :::
 
-::: exercise q8
+::: question q8
 Give the $L^1$, $L^2$ and $L^\infty$ norms of $[-3, 0, 4]^T$, and the unit vector in its
 direction.
 
@@ -113,7 +113,7 @@ direction.
 :::
 :::
 
-::: exercise q9
+::: question q9
 A weight matrix maps $\mathbb{R}^{768}$ to $\mathbb{R}^{3072}$. Give its size, and say whether it
 compresses, expands or mixes.
 

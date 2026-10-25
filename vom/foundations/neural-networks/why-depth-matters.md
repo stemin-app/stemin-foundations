@@ -58,7 +58,7 @@ phrases, and deep layers learn meaning.
 This order of layers mirrors the structure of the data itself.
 :::
 
-::: exercise parity-value
+::: flashcard parity-value
 What is the parity of the bits $(1, 1, 0, 1)$?
 
 ::: answer
@@ -66,7 +66,7 @@ What is the parity of the bits $(1, 1, 0, 1)$?
 :::
 :::
 
-::: exercise parity-tree-size
+::: flashcard parity-tree-size
 A tree of XOR units computes the parity of 16 bits. How many XOR units does it use, and how many
 levels deep is it?
 
@@ -81,7 +81,7 @@ Total: $8 + 4 + 2 + 1 = 15 = n - 1$, in $\log_2 16 = 4$ levels. ∎
 :::
 :::
 
-::: exercise xor-relu-check
+::: flashcard xor-relu-check
 Evaluate $\max(0, a + b) - 2\max(0, a + b - 1)$ at $a = 0.5$, $b = 0.5$.
 
 ::: answer

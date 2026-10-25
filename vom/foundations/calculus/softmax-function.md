@@ -79,7 +79,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 Compute $\mathrm{softmax}([0, \ln 3])$.
 
 ::: answer
@@ -87,7 +87,7 @@ $[1/4, 3/4]$. The exponentials are 1 and 3, and their sum is 4.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $\mathrm{softmax}([2, 1, 0]) \approx [0.665, 0.245, 0.090]$. What is
 $\mathrm{softmax}([102, 101, 100])$?
 
@@ -96,7 +96,7 @@ The same, $[0.665, 0.245, 0.090]$. Adding 100 to every score changes nothing.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 With $\mathbf{p} = [0.5, 0.3, 0.2]$, compute $\frac{\partial p_1}{\partial z_1}$ and
 $\frac{\partial p_1}{\partial z_2}$.
 
@@ -111,7 +111,7 @@ $\frac{\partial p_1}{\partial z_2} = -0.5 \times 0.3 = -0.15$ ∎
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 Every row of the softmax Jacobian sums to the same number. Which one, and why?
 
 ::: answer

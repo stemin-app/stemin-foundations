@@ -80,7 +80,7 @@ For a diagonal matrix it is the product of the diagonal. $\mathrm{diag}(2, 3, 1)
 cube into a $2 \times 3 \times 1$ box, and its determinant is 6.
 :::
 
-::: exercise q1
+::: flashcard q1
 Compute $\det\begin{bmatrix} 4 & 2 \\ 1 & 3 \end{bmatrix}$. What area does the unit square get?
 
 ::: answer
@@ -88,7 +88,7 @@ Compute $\det\begin{bmatrix} 4 & 2 \\ 1 & 3 \end{bmatrix}$. What area does the u
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 For which $k$ does $\begin{bmatrix} 2 & k \\ 3 & 6 \end{bmatrix}$ have no inverse?
 
 ::: answer
@@ -96,7 +96,7 @@ $k = 4$. Set $12 - 3k = 0$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A matrix has determinant $-2$. A triangle of area 3 goes through it. What is the new area, and
 what happens to its orientation?
 
@@ -105,7 +105,7 @@ what happens to its orientation?
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 Compute $\det\begin{bmatrix} 1 & 0 & 2 \\ 0 & 3 & 0 \\ 1 & 0 & 4 \end{bmatrix}$.
 
 ::: answer

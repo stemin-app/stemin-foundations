@@ -75,7 +75,7 @@ draw:
 ```
 :::
 
-::: exercise two-paths-sum
+::: flashcard two-paths-sum
 Let $z = y_1 + y_2$ with $y_1 = x^2$ and $y_2 = e^x$. What is $\frac{dz}{dx}$ at $x = 0$?
 
 ::: answer
@@ -91,7 +91,7 @@ $$ 1 \cdot 0 + 1 \cdot 1 = 1 $$
 :::
 :::
 
-::: exercise two-paths-product
+::: flashcard two-paths-product
 Let $z = y_1 y_2$ with $y_1 = x + 1$ and $y_2 = x - 1$. What is $\frac{dz}{dx}$ at $x = 2$?
 
 ::: answer
@@ -107,7 +107,7 @@ Check: $z = x^2 - 1$, so $\frac{dz}{dx} = 2x = 4$. ∎
 :::
 :::
 
-::: exercise two-paths-numbers
+::: flashcard two-paths-numbers
 At some point, $\frac{\partial z}{\partial y_1} = 2$, $\frac{\partial z}{\partial y_2} = -1$,
 $\frac{dy_1}{dx} = 3$ and $\frac{dy_2}{dx} = 4$. What is $\frac{dz}{dx}$?
 

@@ -66,7 +66,7 @@ of that row is almost exactly the source's value. This is how a model lifts an a
 word from its context.
 :::
 
-::: exercise missing-attention-weight
+::: flashcard missing-attention-weight
 A row of an attention matrix reads $[0.10, 0.60, a]$. What is $a$?
 
 ::: answer
@@ -80,7 +80,7 @@ $$ a = 1 - 0.10 - 0.60 = 0.30 $$
 :::
 :::
 
-::: exercise recurrent-path-length
+::: flashcard recurrent-path-length
 In "The cat that I saw yesterday at the park was black", "cat" is word 2 and "was" is word 10.
 How many recurrent steps separate them in an RNN, and how many attention steps in self-attention?
 
@@ -97,7 +97,7 @@ Self-attention connects any two positions directly: 1 step. ∎
 :::
 :::
 
-::: exercise attention-symmetry
+::: flashcard attention-symmetry
 In an attention matrix, $a_{12} = 0.75$. What does this tell you about $a_{21}$?
 
 ::: answer

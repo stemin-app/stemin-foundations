@@ -94,7 +94,7 @@ why the exponent might be the same across tasks. Still, $\alpha_N \approx 0.076$
 $\alpha_D \approx 0.095$ are measured, not predicted. No theory today derives them.
 :::
 
-::: exercise zipf-rank-ratio
+::: flashcard zipf-rank-ratio
 Words follow Zipf's law with $s = 1$. How many times more often does the word of rank 1 appear
 than the word of rank 10?
 
@@ -103,7 +103,7 @@ than the word of rank 10?
 :::
 :::
 
-::: exercise manifold-count
+::: flashcard manifold-count
 How many distinct sequences of 1000 tokens can you build from a vocabulary of 50,000 tokens? Give
 the power of ten.
 
@@ -120,7 +120,7 @@ $$ \log_{10}\left(50000^{1000}\right) = 1000 \times 4.699 = 4699 $$
 :::
 :::
 
-::: exercise zipf-tail-doubling
+::: flashcard zipf-tail-doubling
 The tail mass beyond rank $k$ is proportional to $k^{1-s}$, with $s = 1.1$. By what factor does
 the tail shrink when the cutoff doubles?
 

@@ -73,7 +73,7 @@ $(\nabla f)^T$. In every case it answers the same question: how does the output 
 small change of input?
 :::
 
-::: exercise jacobian-of-pair
+::: flashcard jacobian-of-pair
 For $y_1 = x_1 x_2$ and $y_2 = x_1 + x_2^2$, what is the Jacobian at $(1, 2)$?
 
 ::: answer
@@ -87,7 +87,7 @@ $$ \mathbf{J} = \begin{bmatrix} x_2 & x_1 \\ 1 & 2x_2 \end{bmatrix} = \begin{bma
 :::
 :::
 
-::: exercise jacobian-shape
+::: flashcard jacobian-shape
 A function maps $\mathbb{R}^3$ to $\mathbb{R}^2$. What is the shape of its Jacobian?
 
 ::: answer
@@ -95,7 +95,7 @@ $2 \times 3$. One row per output, one column per input.
 :::
 :::
 
-::: exercise jacobian-prediction
+::: flashcard jacobian-prediction
 At a point where $\mathbf{J} = \begin{bmatrix} 2 & 0 \\ 1 & 3 \end{bmatrix}$, the input moves by
 $\Delta \mathbf{x} = [0.1, -0.1]^T$. What change of output does the Jacobian predict?
 

@@ -42,7 +42,7 @@ longer sequences raise the base, so that the slowest pairs still change slowly a
 context.
 :::
 
-::: exercise q1
+::: flashcard q1
 With base 100 and $d = 512$, what is the wavelength of the slowest pair, $i = 255$?
 
 ::: answer
@@ -50,7 +50,7 @@ About 618 positions. $2\pi \cdot 100^{510/512} \approx 2\pi \cdot 98.2$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model reads sequences of 2,048 tokens with base 100. About how many times does its slowest pair
 repeat in one sequence?
 

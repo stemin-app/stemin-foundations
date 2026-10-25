@@ -50,7 +50,7 @@ training, when the sublayer outputs small noise, the network is close to the ide
 place to begin.
 :::
 
-::: exercise q1
+::: flashcard q1
 A sublayer outputs $[0.1, -0.3]$ for the input $[2, 1]$. What does the residual connection give?
 
 ::: answer
@@ -58,7 +58,7 @@ $[2.1, 0.7]$. Add the input and the output.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 For a scalar sublayer, $\frac{\partial f}{\partial x} = 0.01$. What is $\frac{\partial x'}{\partial x}$
 with the residual connection, and without it?
 

@@ -43,7 +43,7 @@ Nearby positions get similar vectors. And it is defined for every position, incl
 never seen in training.
 :::
 
-::: exercise q1
+::: flashcard q1
 With the raw index, what is the relative step from position 50 to position 51?
 
 ::: answer
@@ -51,7 +51,7 @@ With the raw index, what is the relative step from position 50 to position 51?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model with a raw position index trained on positions 1 to 512 reads a sequence of 600 tokens.
 How many of its positions did it never see in training?
 
@@ -66,7 +66,7 @@ $$ 600 - 512 = 88 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 To keep values small, you scale the index to $t / 100$ and train on positions 1 to 100. What value
 does position 150 get, and which demand does the scheme still break?
 

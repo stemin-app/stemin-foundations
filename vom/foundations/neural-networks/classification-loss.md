@@ -60,7 +60,7 @@ The softmax Jacobian and the $1/\hat{y}$ of the logarithm cancel, and only a dif
 holds for the sigmoid with binary cross-entropy: $\partial \mathcal{L} / \partial z = \hat{y} - y$.
 :::
 
-::: exercise q1
+::: flashcard q1
 The label is $y = 0$ and the prediction is $\hat{y} = 0.9$. What is the binary cross-entropy?
 
 ::: answer
@@ -68,7 +68,7 @@ $-\log 0.1 \approx 2.303$. With $y = 0$, only $-\log(1 - \hat{y})$ counts.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A softmax over three classes predicts $[0.7, 0.2, 0.1]$, and the true class is the first. What
 are the loss and the gradient with respect to the logits?
 
@@ -83,7 +83,7 @@ $\hat{\mathbf{y}} - \mathbf{y} = [0.7 - 1, \; 0.2 - 0, \; 0.1 - 0] = [-0.3, 0.2,
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A sigmoid output has $z = 0$ and the label is $y = 1$. What is $\frac{\partial \mathcal{L}}{\partial z}$
 for the binary cross-entropy?
 

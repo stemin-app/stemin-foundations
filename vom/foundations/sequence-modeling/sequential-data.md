@@ -27,7 +27,7 @@ belongs to "cat", eleven words back, and not to the nearby "windowsill" or "afte
 "bank" in "bank account". A model must read each word in the light of the words around it.
 :::
 
-::: exercise q1
+::: flashcard q1
 "The keys to the cabinet are on the table." Which word decides that the verb is "are" and not
 "is", and which property of sequences does this show?
 
@@ -37,7 +37,7 @@ singular.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 "She saw the bat fly out of the cave" and "He swung the bat at the ball". Which property of
 sequences do the two sentences show?
 

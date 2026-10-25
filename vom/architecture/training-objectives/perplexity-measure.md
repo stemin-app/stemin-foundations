@@ -62,7 +62,7 @@ the number down from the size of the vocabulary toward 1. It never goes below 1:
 exceeds 1, so no term of the loss is negative.
 :::
 
-::: exercise ppl-three-tokens
+::: flashcard ppl-three-tokens
 A model gives the true tokens of a three-token text the probabilities $0.5$, $0.25$ and $0.125$.
 What is its perplexity on the text?
 
@@ -81,7 +81,7 @@ Check: $(2 \times 4 \times 8)^{1/3} = 64^{1/3} = 4$. ∎
 :::
 :::
 
-::: exercise ppl-from-bits
+::: flashcard ppl-from-bits
 A model has a mean loss of 3 bits per token. What is its perplexity?
 
 ::: answer
@@ -89,7 +89,7 @@ $\text{PPL} = 8$. In bits, $\text{PPL} = 2^{\bar{\ell}_2}$.
 :::
 :::
 
-::: exercise ppl-to-loss
+::: flashcard ppl-to-loss
 A model has a perplexity of 20. What is its mean loss per token, in nats?
 
 ::: answer

@@ -66,7 +66,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 In the example, change the query to $\mathbf{q} = [0, 1, 1]^T$. What are the three unscaled dot
 products?
 
@@ -75,7 +75,7 @@ products?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Scores $[0, 0, \ln 2]$ meet the values $[1, 2]$, $[3, 4]$, $[5, 6]$. What is the output?
 
 ::: answer

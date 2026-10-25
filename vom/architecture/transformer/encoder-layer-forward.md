@@ -87,7 +87,7 @@ what the decoder reads. Early layers tend to catch local patterns and syntax, de
 longer-range meaning.
 :::
 
-::: exercise score-matrix-shape
+::: flashcard score-matrix-shape
 A source of $n = 10$ tokens enters the base encoder. What is the shape of one head's score
 matrix $\mathbf{S}_k$, and of the hidden matrix $\mathbf{F}$ of the feed-forward network?
 
@@ -97,7 +97,7 @@ hidden layer has $d_{ff}$ columns.
 :::
 :::
 
-::: exercise attention-weights-per-layer
+::: flashcard attention-weights-per-layer
 A source of $n = 6$ tokens enters one encoder layer with $h = 8$ heads. How many attention
 weights does the layer compute?
 
@@ -112,7 +112,7 @@ Eight heads: $8 \times 36 = 288$. ∎
 :::
 :::
 
-::: exercise layer-norm-one-row
+::: flashcard layer-norm-one-row
 A row of $\mathbf{R}^{(1)}$, shortened to $4$ entries, is $[2, 4, 4, 6]$. Take $\gamma = 1$,
 $\beta = 0$ and let $\epsilon \to 0$. What does the layer norm return?
 

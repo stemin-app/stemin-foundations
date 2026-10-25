@@ -66,7 +66,7 @@ $\sqrt{2}$, and it sends $[0, 1]^T$ to $[1, 1]^T$. Keeping area is not enough. A
 matrix keeps every length.
 :::
 
-::: exercise q1
+::: flashcard q1
 Is $\frac{1}{5}\begin{bmatrix} 3 & -4 \\ 4 & 3 \end{bmatrix}$ orthogonal?
 
 ::: answer
@@ -74,7 +74,7 @@ Yes. Each column has length 1, and the columns' dot product is $(-12 + 12)/25 = 
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $\mathbf{Q}$ is orthogonal and $\|\mathbf{v}\|_2 = 7$. What is $\|\mathbf{Q}^3\mathbf{v}\|_2$?
 
 ::: answer
@@ -82,7 +82,7 @@ $\mathbf{Q}$ is orthogonal and $\|\mathbf{v}\|_2 = 7$. What is $\|\mathbf{Q}^3\m
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 What is the inverse of $\begin{bmatrix} 0 & 1 \\ -1 & 0 \end{bmatrix}$?
 
 ::: answer

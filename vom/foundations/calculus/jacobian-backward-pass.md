@@ -81,7 +81,7 @@ compound along the chain. Inside each Jacobian product it sums, because each inp
 loss through many intermediate values, and every path counts. This is how a network learns.
 :::
 
-::: exercise backward-step-numbers
+::: flashcard backward-step-numbers
 At a layer with Jacobian $\mathbf{J} = \begin{bmatrix} 2 & 0 \\ 1 & 3 \end{bmatrix}$, the
 gradient at its output is $\nabla_\mathbf{h} L = [1, 2]^T$. What is the gradient at its input?
 
@@ -98,7 +98,7 @@ $$ \mathbf{J}^T \nabla_\mathbf{h} L = \begin{bmatrix} 2 \cdot 1 + 1 \cdot 2 \\ 0
 :::
 :::
 
-::: exercise backward-full-network
+::: flashcard backward-full-network
 Let $h_1 = 2x_1$, $h_2 = x_1 + x_2$ and $L = h_1 h_2$. Use the backward pass to find
 $\nabla_\mathbf{x} L$ at $\mathbf{x} = [1, 1]^T$.
 
@@ -118,7 +118,7 @@ $\frac{\partial L}{\partial x_2} = 2x_1 = 2$. ∎
 :::
 :::
 
-::: exercise backward-shapes
+::: flashcard backward-shapes
 A layer maps $\mathbb{R}^3$ to $\mathbb{R}^5$. How many entries does the gradient at its input
 have, and what shape is the matrix that produces it?
 

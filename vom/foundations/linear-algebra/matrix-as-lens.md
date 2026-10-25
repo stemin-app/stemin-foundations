@@ -78,7 +78,7 @@ Wider output: it analyzes, and spreads the input out to untangle it. Same size: 
 and reorganizes for the next step.
 :::
 
-::: exercise q1
+::: flashcard q1
 $\mathbf{W} \in \mathbb{R}^{2048 \times 512}$. Which of the three kinds is it, and what is the
 largest possible rank?
 
@@ -87,7 +87,7 @@ An expander, with rank at most 512. The rank is never above the smaller size.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $\mathbf{W} \in \mathbb{R}^{64 \times 512}$ has rank 64. What is the dimension of its null space?
 
 ::: answer
@@ -96,7 +96,7 @@ zero.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 The points $-1$, $0$ and $1$ on a line are labelled A, B, A. Lift $x$ to $[x, x^2]$. Give a
 horizontal line that splits the two labels.
 

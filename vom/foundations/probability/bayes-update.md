@@ -73,7 +73,7 @@ from 0.71 instead of 0.2. This is what the Bayesian reading of probability means
 belief that each piece of evidence updates.
 :::
 
-::: exercise q1
+::: flashcard q1
 A disease affects 10% of people. A test is positive for 90% of the sick and for 10% of the healthy.
 A person tests positive. What is the probability that they are sick?
 
@@ -90,7 +90,7 @@ $$ P(\text{sick} \mid \text{pos}) = \frac{0.9 \times 0.1}{0.18} = \frac{0.09}{0.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $P(B \mid A) = 0.6$, $P(A) = 0.5$ and $P(B) = 0.4$. What is $P(A \mid B)$?
 
 ::: answer
@@ -104,7 +104,7 @@ $$ P(A \mid B) = \frac{0.6 \times 0.5}{0.4} = \frac{0.3}{0.4} = 0.75 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 The evidence $B$ is equally likely whether $A$ holds or not: $P(B \mid A) = P(B \mid \text{not } A)$.
 How does the posterior $P(A \mid B)$ compare with the prior $P(A)$?
 

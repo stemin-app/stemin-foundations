@@ -101,7 +101,7 @@ time. The model would learn $r_\phi(x, y) \approx -\text{len}(y)$ and reward bre
 content. That fits the data, and it is useless for alignment.
 :::
 
-::: exercise bt-triple-strength
+::: flashcard bt-triple-strength
 Item $i$ is three times as strong as item $j$. What is $P(i \succ j)$?
 
 ::: answer
@@ -109,7 +109,7 @@ $0.75$. It is $\frac{3p_j}{3p_j + p_j}$.
 :::
 :::
 
-::: exercise bt-margin-for-75
+::: flashcard bt-margin-for-75
 What reward difference makes a response win 75% of the time?
 
 ::: answer
@@ -127,7 +127,7 @@ $\Delta = \ln 3 = 1.0986$ ∎
 :::
 :::
 
-::: exercise bt-rm-loss
+::: flashcard bt-rm-loss
 The reward model gives $r_\phi(x, y_w) = 1.5$ and $r_\phi(x, y_l) = -0.5$. What is the loss on this
 triple?
 
@@ -142,7 +142,7 @@ $\log(1 + e^{-2}) = \ln(1 + 0.1353) = \ln 1.1353 = 0.1269$ ∎
 :::
 :::
 
-::: exercise bt-gradient-at-zero
+::: flashcard bt-gradient-at-zero
 The reward model scores a pair equally, $z = 0$. What is $\frac{d}{dz}\left[-\log \sigma(z)\right]$
 there?
 

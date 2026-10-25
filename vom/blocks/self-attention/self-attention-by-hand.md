@@ -91,7 +91,7 @@ $[0, 2]$. Token 3's query $[1, 1]$ matches every key equally, so its output is t
 of the three values.
 :::
 
-::: exercise unscaled-weight
+::: flashcard unscaled-weight
 Row 1 has raw scores $[0, 4, 2]$. Without the division by $\sqrt{d_k}$, what weight does
 token 1 put on token 2?
 
@@ -110,7 +110,7 @@ $$ \frac{54.60}{62.99} \approx 0.867 $$
 :::
 :::
 
-::: exercise uniform-row-output
+::: flashcard uniform-row-output
 Keep the weights of row 3, $[1/3, 1/3, 1/3]$, but change the third value row to $[1, 4]$. What
 is $\mathbf{o}_3$?
 
@@ -125,7 +125,7 @@ $$ \mathbf{o}_3 = \tfrac{1}{3}\left([1, 2] + [1, 0] + [1, 4]\right) = \tfrac{1}{
 :::
 :::
 
-::: exercise zero-diagonal-score
+::: flashcard zero-diagonal-score
 In the example, why is the score of token 2 against its own key exactly 0?
 
 ::: answer

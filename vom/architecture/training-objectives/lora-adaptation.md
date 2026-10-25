@@ -104,7 +104,7 @@ terms, reweighting some features. Such changes lie in a small subspace.
 In practice a rank of 8 to 64 suffices for most tasks: a few dozen directions out of millions.
 :::
 
-::: exercise lora-count-rect
+::: flashcard lora-count-rect
 A matrix has $d = 1024$ and $k = 4096$. LoRA uses $r = 8$. How many numbers does LoRA train, and
 how many times fewer is that than full fine-tuning of the matrix?
 
@@ -121,7 +121,7 @@ Ratio: $4{,}194{,}304 / 40{,}960 = 102.4$ ∎
 :::
 :::
 
-::: exercise lora-first-step
+::: flashcard lora-first-step
 At the first training step, what does a LoRA layer output for an input $\mathbf{x}$?
 
 ::: answer
@@ -129,7 +129,7 @@ $\mathbf{h} = \mathbf{W}\mathbf{x}$. $\mathbf{B}$ starts at zero, so the correct
 :::
 :::
 
-::: exercise lora-max-rank
+::: flashcard lora-max-rank
 LoRA with $r = 16$ adapts a $4096 \times 4096$ matrix. What is the largest rank $\Delta\mathbf{W}$ can
 have?
 
@@ -138,7 +138,7 @@ have?
 :::
 :::
 
-::: exercise lora-qv-total
+::: flashcard lora-qv-total
 LoRA with $r = 16$ adapts $\mathbf{W}_Q$ and $\mathbf{W}_V$, each $4096 \times 4096$, in all 32 layers.
 How many numbers does it train in total?
 

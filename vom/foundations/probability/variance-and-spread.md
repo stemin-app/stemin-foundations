@@ -107,7 +107,7 @@ spread decides what happens next. Too large and the activations explode; too sma
 gradients vanish. The Xavier and He initialization schemes exist to set that spread.
 :::
 
-::: exercise q1
+::: flashcard q1
 $X$ is 2 or 8, each with probability 0.5. What are its variance and its standard deviation?
 
 ::: answer
@@ -125,7 +125,7 @@ $$ \sigma = \sqrt{9} = 3 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $X$ is the roll of a fair die. What is $\operatorname{Var}(X)$?
 
 ::: answer
@@ -143,7 +143,7 @@ $$ \operatorname{Var}(X) = \frac{91}{6} - \frac{49}{4} = \frac{182 - 147}{12} = 
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $\operatorname{Var}(X) = 2$. What is $\operatorname{Var}(3X)$?
 
 ::: answer

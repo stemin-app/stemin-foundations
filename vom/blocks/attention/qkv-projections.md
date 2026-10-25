@@ -34,7 +34,7 @@ $\mathbf{W}^K$ break this: the score is $\mathbf{x}_i^T\mathbf{W}^Q(\mathbf{W}^K
 which need not be largest at $i = j$, and need not be symmetric.
 :::
 
-::: exercise q1
+::: flashcard q1
 $d_{\text{model}} = 512$ and $d_k = d_v = 64$. How many parameters do $\mathbf{W}^Q$,
 $\mathbf{W}^K$ and $\mathbf{W}^V$ hold together?
 
@@ -43,7 +43,7 @@ $\mathbf{W}^K$ and $\mathbf{W}^V$ hold together?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $\mathbf{X}$ holds 20 tokens with $d_{\text{model}} = 512$, and $d_k = 64$. What is the shape of
 $\mathbf{K}$?
 

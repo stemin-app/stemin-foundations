@@ -75,7 +75,7 @@ is:
 $$ \frac{\partial f}{\partial x} = \lim_{h \to 0} \frac{f(x + h, y) - f(x, y)}{h} $$
 :::
 
-::: exercise partial-product
+::: flashcard partial-product
 For $f(x, y) = x^2 y + 3y$, find $\frac{\partial f}{\partial x}$ and $\frac{\partial f}{\partial y}$
 at $(2, 1)$.
 
@@ -93,7 +93,7 @@ $$ \frac{\partial f}{\partial y} = x^2 + 3 = 4 + 3 = 7 $$
 :::
 :::
 
-::: exercise partial-exponential
+::: flashcard partial-exponential
 For $f(x, y) = e^{xy}$, what is $\frac{\partial f}{\partial x}$ at $(0, 2)$?
 
 ::: answer
@@ -107,7 +107,7 @@ $$ \frac{\partial f}{\partial x} = y e^{xy} = 2 e^{0} = 2 $$
 :::
 :::
 
-::: exercise partial-bowl-negative
+::: flashcard partial-bowl-negative
 For $f(x, y) = x^2 + y^2$ at $(-1, 2)$, which of the two walks climbs: due east or due north?
 
 ::: answer

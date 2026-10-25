@@ -85,7 +85,7 @@ draw:
 ```
 :::
 
-::: exercise embedding-matrix-size
+::: flashcard embedding-matrix-size
 An embedding matrix serves 50,000 words with $d = 256$. How many parameters does it hold?
 
 ::: answer
@@ -99,7 +99,7 @@ $$ V \times d = 50{,}000 \times 256 = 12{,}800{,}000 $$
 :::
 :::
 
-::: exercise embedding-lookup-product
+::: flashcard embedding-lookup-product
 With the five-word matrix $\mathbf{E}$ of this deck, compute $\mathbf{E}^T \mathbf{x}$ for
 $\mathbf{x} = [0, 0, 0, 1, 0]^T$. Which word is it?
 
@@ -118,7 +118,7 @@ Row 3 belongs to "car". ∎
 :::
 :::
 
-::: exercise embedding-gradient-rows
+::: flashcard embedding-gradient-rows
 A training example contains only word 7. Which rows of $\mathbf{E}$ get a nonzero gradient from
 the embedding lookup?
 

@@ -62,7 +62,7 @@ removes the part that only scales the row, which $\sigma$ would cancel. Layer no
 only the changes it does not erase.
 :::
 
-::: exercise q1
+::: flashcard q1
 One row of attention weights is $\mathbf{a} = [0.5, 0.3, 0.2]$, and
 $\frac{\partial \mathcal{L}}{\partial \mathbf{a}} = [1, 0, 0]$. What is
 $\frac{\partial \mathcal{L}}{\partial \mathbf{s}}$?
@@ -80,7 +80,7 @@ The three add to 0. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 In a self-attention layer, through how many matrices does the gradient reach the input
 $\mathbf{X}$, not counting the residual path?
 

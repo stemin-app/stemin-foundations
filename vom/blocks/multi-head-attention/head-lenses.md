@@ -60,7 +60,7 @@ head and meaning in another is a pattern that trained heads often show, not a ru
 given.
 :::
 
-::: exercise q1
+::: flashcard q1
 In two dimensions, two heads of width 1 use the unit vectors $\mathbf{u}_1 = (1, 0)$ and
 $\mathbf{u}_2 = (0, 1)$. What does each head output for $\mathbf{x} = (3, 4)$?
 
@@ -78,7 +78,7 @@ $$ \mathbf{x} \cdot \mathbf{u}_2 = 3 \times 0 + 4 \times 1 = 4 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A head of width 1 uses the unit vector $\mathbf{u} = (1/\sqrt{2}, 1/\sqrt{2})$. What does it output
 for $\mathbf{x} = (2, 1)$?
 
@@ -93,7 +93,7 @@ $$ \mathbf{x} \cdot \mathbf{u} = \frac{2}{\sqrt{2}} + \frac{1}{\sqrt{2}} = \frac
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 How many numbers does one query matrix $\mathbf{W}_i^Q$ hold when $d_\text{model} = 512$ and
 $d_k = 64$?
 

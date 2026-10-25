@@ -54,7 +54,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 Three values are $[1, 0]$, $[0, 1]$ and $[1, 1]$, with weights $0.5, 0.25, 0.25$. What is the
 output?
 
@@ -63,7 +63,7 @@ $[0.75, 0.5]$. Add the values, each times its weight.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Can the weights $[0.6, 0.6, -0.2]$ be attention weights?
 
 ::: answer

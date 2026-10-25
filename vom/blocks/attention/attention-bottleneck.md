@@ -24,7 +24,7 @@ looks mostly at "cat"; to write "noir" it looks mostly at "black", even though t
 flipped. No single vector has to carry the whole sentence: each output step reads what it needs.
 :::
 
-::: exercise q1
+::: flashcard q1
 What does attention give the decoder that a plain encoder and decoder do not?
 
 ::: answer
@@ -33,7 +33,7 @@ summary vector.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A source sentence has 40 words. How many encoder states can an attention decoder read at each
 step, and how many can a plain recurrent decoder read?
 

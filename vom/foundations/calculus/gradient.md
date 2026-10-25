@@ -129,7 +129,7 @@ The learning rate $\eta$ sets the step size. This is gradient descent.
 [Gradient descent](reference:gradient-descent)
 :::
 
-::: exercise gradient-at-point
+::: flashcard gradient-at-point
 For $f(x, y) = 3x^2 + y$, what is $\nabla f$ at $(1, 2)$?
 
 ::: answer
@@ -137,7 +137,7 @@ $[6, 1]^T$. The partials are $6x$ and $1$.
 :::
 :::
 
-::: exercise gradient-steepest-slope
+::: flashcard gradient-steepest-slope
 At a point where $\nabla f = [3, 4]^T$, what is the steepest slope, and in which unit direction?
 
 ::: answer
@@ -153,7 +153,7 @@ $$ \mathbf{u} = \frac{[3, 4]}{5} = [0.6, 0.8] $$
 :::
 :::
 
-::: exercise directional-slope
+::: flashcard directional-slope
 At a point where $\nabla f = [2, -1]^T$, what is the slope in the unit direction
 $\mathbf{u} = [0.6, 0.8]$?
 
@@ -168,7 +168,7 @@ $$ D_\mathbf{u} f = 2 \times 0.6 + (-1) \times 0.8 = 1.2 - 0.8 = 0.4 $$
 :::
 :::
 
-::: exercise descent-step
+::: flashcard descent-step
 The weights are $\mathbf{w} = [1, 2]^T$, the gradient is $\nabla L = [4, -2]^T$, and $\eta = 0.1$.
 What are the weights after one step of gradient descent?
 

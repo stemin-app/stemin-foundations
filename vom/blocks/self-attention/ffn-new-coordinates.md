@@ -64,7 +64,7 @@ the ones that fire, and $\mathbf{W}_2$ writes "feature 17 fired, feature 203 fir
 Attention moves information between positions. The FFN computes at each position, on its own.
 :::
 
-::: exercise q1
+::: flashcard q1
 In the defect FFN, compute $(A, B)$ for a part with $s = 2$ and $w = 2.1$. Is it a defect by the
 rule $B > 0.5$?
 
@@ -73,7 +73,7 @@ $(2.05, 1.3)$, so yes. The gap is 0.1, and $B = 1.5 - 0.2$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Does the FFN let position 3 read anything from position 5?
 
 ::: answer

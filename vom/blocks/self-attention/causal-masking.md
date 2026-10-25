@@ -74,7 +74,7 @@ at once, and the mask guarantees that none of them used the token it predicts. G
 decoder-only model is built on this.
 :::
 
-::: exercise q1
+::: flashcard q1
 For a sequence of 6 tokens, how many entries of the mask are $-\infty$?
 
 ::: answer
@@ -82,7 +82,7 @@ For a sequence of 6 tokens, how many entries of the mask are $-\infty$?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Row 2 has the scores $[\ln 3, 0, 5]$ before the mask. What are its weights after it?
 
 ::: answer

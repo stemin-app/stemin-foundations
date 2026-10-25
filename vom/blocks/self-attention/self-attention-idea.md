@@ -42,7 +42,7 @@ verb finds its subject, a pronoun finds the noun it stands for, and a word picks
 anywhere in the sentence. Self-attention is the core operation of the transformer.
 :::
 
-::: exercise cross-or-self
+::: flashcard cross-or-self
 A decoder state for the French token "chat" attends over the encoder states of "The cat sat".
 Is this self-attention or cross-attention?
 
@@ -51,7 +51,7 @@ Cross-attention. The query and the keys come from two different sequences.
 :::
 :::
 
-::: exercise self-attention-pair-count
+::: flashcard self-attention-pair-count
 Self-attention runs over a sentence of 5 tokens. How many query and key pairs does it score?
 
 ::: answer

@@ -72,7 +72,7 @@ Any depth works the same way: one error signal per layer, each made from the one
 ([backpropagation](reference:backpropagation)).
 :::
 
-::: exercise q1
+::: flashcard q1
 A layer has $\boldsymbol{\delta} = [0.2, -0.1]^T$ and its input is $\mathbf{h} = [1, 3]^T$. What is
 the gradient of the loss with respect to its weight matrix?
 
@@ -82,7 +82,7 @@ $\boldsymbol{\delta}\mathbf{h}^T$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A ReLU layer has $\mathbf{z} = [1.5, -0.3, 0.7]^T$, and the gradient arriving at its output is
 $[0.4, 0.9, -0.2]^T$. What is $\boldsymbol{\delta}$?
 
@@ -91,7 +91,7 @@ $[0.4, 0, -0.2]^T$. The ReLU mask is $[1, 0, 1]^T$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Why does backpropagation keep the values of the forward pass?
 
 ::: answer

@@ -99,7 +99,7 @@ Predicting text well requires a model of what the text is about. Quality of data
 much as quantity: filtering, deduplication and a balance of sources all improve the result.
 :::
 
-::: exercise lm-three-tokens
+::: flashcard lm-three-tokens
 A model gives the true next tokens of a three-token sequence the probabilities $0.9$, $0.6$ and
 $0.3$. What is $\mathcal{L}_{LM}$, with the natural log?
 
@@ -118,7 +118,7 @@ $\mathcal{L}_{LM} = 0.1054 + 0.5108 + 1.2040 = 1.8202$ ∎
 :::
 :::
 
-::: exercise lm-logit-loss
+::: flashcard lm-logit-loss
 The logits over a three-token vocabulary are $z = (2, 1, 0)$, and the correct token is the first.
 What is the loss of this position?
 
@@ -137,7 +137,7 @@ Check: $q_y = 7.389 / 11.107 = 0.665$ and $-\ln 0.665 = 0.408$. ∎
 :::
 :::
 
-::: exercise lm-stable-lse
+::: flashcard lm-stable-lse
 Compute $\log(e^{1000} + e^{999})$ without overflow.
 
 ::: answer

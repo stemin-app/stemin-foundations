@@ -72,7 +72,7 @@ so 1,000 tokens take 1,000 steps in a row. Self-attention computes every positio
 few matrix products, the operation a GPU does fastest.
 :::
 
-::: exercise doubling-context
+::: flashcard doubling-context
 A model's context grows from 1,024 to 2,048 tokens. By what factor does the number of attention
 scores grow?
 
@@ -87,7 +87,7 @@ $$ \frac{2048^2}{1024^2} = \left(\frac{2048}{1024}\right)^2 = 2^2 = 4 $$
 :::
 :::
 
-::: exercise score-count-4096
+::: flashcard score-count-4096
 How many attention scores does one head compute for a sequence of 4,096 tokens?
 
 ::: answer
@@ -101,7 +101,7 @@ $$ 4096^2 = 2^{24} = 16{,}777{,}216 $$
 :::
 :::
 
-::: exercise attention-rnn-crossover
+::: flashcard attention-rnn-crossover
 With $d = 512$, at what sequence length does $n^2 d$ equal $n d^2$?
 
 ::: answer

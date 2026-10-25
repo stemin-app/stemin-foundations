@@ -55,7 +55,7 @@ $$ \mathbf{h}_3 = \tanh\left(\begin{bmatrix} -0.058 - 0.011 \\ -0.023 - 0.068 \e
 The final state depends on all three inputs, through the chain of steps.
 :::
 
-::: exercise q1
+::: flashcard q1
 An RNN has $d = 128$ and inputs of size $n = 300$. How many parameters do $\mathbf{W}_h$,
 $\mathbf{W}_x$ and $\mathbf{b}$ hold together? Does the count depend on the sequence length?
 
@@ -74,7 +74,7 @@ Total: $16{,}384 + 38{,}400 + 128 = 54{,}912$. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A scalar RNN has $h_t = \tanh(0.5\,h_{t-1} + x_t)$ and $h_0 = 0$. What is $h_2$ for $x_1 = 1$,
 $x_2 = 0$?
 

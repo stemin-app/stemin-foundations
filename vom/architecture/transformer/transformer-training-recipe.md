@@ -58,7 +58,7 @@ and mixed precision runs the forward and backward passes in 16-bit floats while 
 master weights in 32-bit.
 :::
 
-::: exercise q1
+::: flashcard q1
 With $d_{model} = 512$ and $w = 4{,}000$, what is the learning rate at step 1,000?
 
 ::: answer
@@ -74,7 +74,7 @@ $\alpha = 0.0442 \times 1{,}000 \times 3.95 \times 10^{-6} \approx 1.75 \times 1
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 After warmup, by what factor does the learning rate fall when the step count grows from 16,000
 to 64,000?
 

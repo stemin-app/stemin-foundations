@@ -43,7 +43,7 @@ began as an addition to RNNs for translation. The transformer then showed that a
 with no recurrence, works better and trains far faster.
 :::
 
-::: exercise q1
+::: flashcard q1
 An RNN reads a sequence of 2,000 tokens. How many steps must run one after another?
 
 ::: answer
@@ -51,7 +51,7 @@ An RNN reads a sequence of 2,000 tokens. How many steps must run one after anoth
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Name the three limits of recurrence.
 
 ::: answer

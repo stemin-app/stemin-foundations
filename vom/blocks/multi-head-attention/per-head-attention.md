@@ -38,7 +38,7 @@ The heads share the input $\mathbf{X}$ and nothing else. No head reads the weigh
 so all $h$ heads run at the same time, in parallel.
 :::
 
-::: exercise q1
+::: flashcard q1
 A sequence has $n = 10$ tokens and the layer has $h = 8$ heads. How many attention weights does
 the layer compute over all its heads?
 
@@ -53,7 +53,7 @@ $$ h \times n \times n = 8 \times 10 \times 10 = 800 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A sequence has $n = 20$ tokens, $d_\text{model} = 512$ and $h = 8$. What is the shape of
 $\text{head}_3$?
 
@@ -62,7 +62,7 @@ $20 \times 64$. One row per token, $d_k = 512 / 8 = 64$ columns.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A model has $d_\text{model} = 1024$ and $h = 16$ heads. By what number does each head divide its
 scores?
 

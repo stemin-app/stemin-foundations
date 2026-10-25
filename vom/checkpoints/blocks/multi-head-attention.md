@@ -4,7 +4,7 @@ title: Multi-head attention
 
 Answer every question without notes. Leave out biases unless a question names them.
 
-::: exercise q1
+::: question q1
 A model has $d_\text{model} = 1024$ and $h = 16$ heads. What is the shape of the key matrix
 $\mathbf{W}_i^K$ of one head?
 
@@ -19,7 +19,7 @@ $\mathbf{W}_i^K$ maps a 1024-wide row to a 64-wide row, so it is $1024 \times 64
 :::
 :::
 
-::: exercise q2
+::: question q2
 A layer with $h = 16$ heads reads a sequence of $n = 128$ tokens. How many attention weights does
 it compute over all its heads?
 
@@ -36,7 +36,7 @@ $$ 16 \times 16{,}384 = 262{,}144 $$
 :::
 :::
 
-::: exercise q3
+::: question q3
 How many parameters does a multi-head attention layer with $d_\text{model} = 1024$ and $h = 16$
 heads hold?
 
@@ -55,7 +55,7 @@ $$ 3{,}145{,}728 + 1{,}048{,}576 = 4{,}194{,}304 $$
 :::
 :::
 
-::: exercise q4
+::: question q4
 A layer has heads of width $d_k = 64$. Which head owns coordinate 700 of the concatenated vector,
 and which coordinates does that head own?
 
@@ -70,7 +70,7 @@ Head 11 starts at $10 \times 64 + 1 = 641$ and ends at $11 \times 64 = 704$. ∎
 :::
 :::
 
-::: exercise q5
+::: question q5
 Two heads of width 2 give $\mathbf{v}_1 = (1, -1)$ and $\mathbf{v}_2 = (2, 0)$ for one token. The
 output matrix is
 
@@ -93,7 +93,7 @@ $$ z_2 = 1 \times 0 + (-1) \times 1 + 2 \times 1 + 0 \times (-1) = 1 $$
 :::
 :::
 
-::: exercise q6
+::: question q6
 One head weighs two tokens with scores $s_1$ and $s_2$. What gap $s_1 - s_2$ gives the first
 token a weight of 0.75?
 
@@ -112,7 +112,7 @@ $$ \Delta = \ln 3 = 1.099 $$
 :::
 :::
 
-::: exercise q7
+::: question q7
 A layer with $d_\text{model} = 1024$ has 16 heads. How many times more parameters does it hold if
 every head is 1024 wide, in place of 64 wide?
 
@@ -127,7 +127,7 @@ $$ \frac{4 \times 16 \times 1024^2}{4 \times 1024^2} = 16 $$
 :::
 :::
 
-::: exercise q8
+::: question q8
 A model has $d_\text{model} = 1024$ and $h = 8$ heads. By what number does each head divide its
 scores, to two decimal places?
 

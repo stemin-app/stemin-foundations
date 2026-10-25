@@ -89,7 +89,7 @@ $$ Z = \frac{X - \mu}{\sigma} $$
 If $X \sim \mathcal{N}(\mu, \sigma^2)$, then $Z \sim \mathcal{N}(0, 1)$.
 :::
 
-::: exercise q1
+::: flashcard q1
 $X \sim \mathcal{N}(10, 4)$. What is the standard score $z$ of the value $x = 14$?
 
 ::: answer
@@ -105,7 +105,7 @@ $$ z = \frac{14 - 10}{2} = 2 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 What is the height of the standard normal density at its peak, $x = 0$?
 
 ::: answer
@@ -119,7 +119,7 @@ $$ f(0) = \frac{1}{\sqrt{2\pi \cdot 1}} \exp(0) = \frac{1}{\sqrt{2\pi}} = \frac{
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $X \sim \mathcal{N}(0, 9)$. What is the standard deviation of $X$?
 
 ::: answer

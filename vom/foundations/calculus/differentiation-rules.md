@@ -62,7 +62,7 @@ $$ \frac{dy}{dx} = \frac{\frac{df}{dx} \cdot g(x) - f(x) \cdot \frac{dg}{dx}}{g(
 [Quotient rule](reference:quotient-rule)
 :::
 
-::: exercise power-rule-quintic
+::: flashcard power-rule-quintic
 What is $\frac{d}{dx} x^5$ at $x = 2$?
 
 ::: answer
@@ -76,7 +76,7 @@ $$ \frac{d}{dx} x^5 = 5x^4 = 5 \cdot 16 = 80 $$
 :::
 :::
 
-::: exercise product-rule-x-exp
+::: flashcard product-rule-x-exp
 What is the derivative of $y = x e^x$ at $x = 0$?
 
 ::: answer
@@ -92,7 +92,7 @@ $$ e^0 (1 + 0) = 1 $$
 :::
 :::
 
-::: exercise quotient-rule-x-over-x-plus-one
+::: flashcard quotient-rule-x-over-x-plus-one
 What is the derivative of $y = \frac{x}{x + 1}$ at $x = 1$?
 
 ::: answer

@@ -51,7 +51,7 @@ so the backward pass is trivial. And it does not saturate for positive inputs, u
 and tanh, so the gradient through an active unit never shrinks.
 :::
 
-::: exercise q1
+::: flashcard q1
 Compute $\mathrm{ReLU}([0.5, -2, 3, -0.1])$.
 
 ::: answer
@@ -59,7 +59,7 @@ $[0.5, 0, 3, 0]$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $g(x) = \mathrm{ReLU}(x - 1)$, compare $g(2) + g(0)$ with $2\,g(1)$. What does this show?
 
 ::: answer

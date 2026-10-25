@@ -49,7 +49,7 @@ turns each row of $\mathbf{X}^{(L)}$ into $V$ logits, one per word of the vocabu
 makes them the probabilities of the next token.
 :::
 
-::: exercise q1
+::: flashcard q1
 In pre-norm, which tensor is normalized before self-attention, and does the skip path pass
 through a norm?
 
@@ -59,7 +59,7 @@ $\mathbf{X}_0$ itself, with no norm.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model has $d = 768$ and a vocabulary of $V = 50{,}257$. What is the shape of the logits for a
 sequence of 10 tokens?
 

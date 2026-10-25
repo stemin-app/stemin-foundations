@@ -70,7 +70,7 @@ A common pattern runs full fine-tuning for instruction tuning, where the behavio
 lot, and LoRA for the task stage, to keep the instruction following.
 :::
 
-::: exercise adapter-count
+::: flashcard adapter-count
 An adapter has $d = 4096$ and $r = 64$. Ignoring biases, how many numbers does it train?
 
 ::: answer
@@ -86,7 +86,7 @@ Total: $2 \times 262{,}144 = 524{,}288$ ∎
 :::
 :::
 
-::: exercise prefix-count
+::: flashcard prefix-count
 A prefix of $m = 20$ vectors is added at the input of a model with $d = 4096$. How many numbers
 train?
 
@@ -95,7 +95,7 @@ train?
 :::
 :::
 
-::: exercise adapter-identity
+::: flashcard adapter-identity
 Why does an adapter with $\mathbf{W}_{up} = 0$ leave the model unchanged?
 
 ::: answer

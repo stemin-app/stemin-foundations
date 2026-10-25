@@ -70,7 +70,7 @@ The cost falls from $V$ dot products to $k + 1$. Typically $k$ is between 5 and 
 $k = 5$ and $V = 50{,}000$, a training pair needs 6 dot products instead of 50,000.
 :::
 
-::: exercise negative-sampling-cost
+::: flashcard negative-sampling-cost
 With $k = 10$ negative samples and $V = 50{,}000$, how many dot products does one training pair
 need, against the full softmax?
 
@@ -87,7 +87,7 @@ $$ \frac{50{,}000}{11} \approx 4{,}545 $$
 :::
 :::
 
-::: exercise negative-sampling-sigmoid-flip
+::: flashcard negative-sampling-sigmoid-flip
 $\sigma(2) \approx 0.881$. What is $\sigma(-2)$?
 
 ::: answer
@@ -103,7 +103,7 @@ $$ \sigma(-2) = 1 - 0.881 = 0.119 $$
 :::
 :::
 
-::: exercise negative-sampling-objective-value
+::: flashcard negative-sampling-objective-value
 With $k = 1$, the positive pair has dot product 2 and the negative pair has dot product $-1$.
 What is $\mathcal{L}$, with the natural logarithm, to three decimals?
 

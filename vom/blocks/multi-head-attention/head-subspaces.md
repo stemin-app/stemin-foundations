@@ -38,7 +38,7 @@ coordinates 65 to 512 would be invisible to it. A learned projection lets each h
 directions it needs from anywhere in the vector.
 :::
 
-::: exercise q1
+::: flashcard q1
 A model has $d_\text{model} = 768$ and $h = 12$ heads. What is the width $d_k$ of each head?
 
 ::: answer
@@ -52,7 +52,7 @@ $$ d_k = \frac{768}{12} = 64 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model has $d_\text{model} = 1024$ and heads of width $d_k = 128$. How many heads does it have?
 
 ::: answer
@@ -66,7 +66,7 @@ $$ h = \frac{1024}{128} = 8 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 In a model with $d_\text{model} = 512$ and 8 heads, how many of the 512 input coordinates does
 head 3 read?
 

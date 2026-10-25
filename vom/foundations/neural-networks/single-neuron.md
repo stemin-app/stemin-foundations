@@ -92,7 +92,7 @@ The output sits a little above the midpoint 0.5, because the weighted sum 0.18 i
 above zero.
 :::
 
-::: exercise neuron-output
+::: flashcard neuron-output
 A sigmoid neuron has weights $\mathbf{w} = [0.5, -1]^T$ and bias $b = 0$. What does it output for
 the input $\mathbf{x} = [4, 1]^T$?
 
@@ -109,7 +109,7 @@ $$ y = \sigma(1) = \frac{1}{1 + e^{-1}} = \frac{1}{1 + 0.368} = \frac{1}{1.368} 
 :::
 :::
 
-::: exercise neuron-side
+::: flashcard neuron-side
 A neuron has $\mathbf{w} = [2, 1]^T$ and $b = -3$. On which side of its line is the point
 $(1, 2)$: the side where $z > 0$, or the side where $z < 0$?
 
@@ -124,7 +124,7 @@ $$ z = 2 \cdot 1 + 1 \cdot 2 - 3 = 1 > 0 $$
 :::
 :::
 
-::: exercise neuron-line-distance
+::: flashcard neuron-line-distance
 A neuron has $\mathbf{w} = [1, 1]^T$ and $b = -2$. How far is its line $z = 0$ from the origin?
 
 ::: answer

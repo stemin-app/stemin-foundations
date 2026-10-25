@@ -74,7 +74,7 @@ token to the input and run again. The masked computation is the one the model le
 training.
 :::
 
-::: exercise three-position-loss
+::: flashcard three-position-loss
 At three target positions the model gives the true token probability $0.5$, $0.25$ and $0.8$.
 What is the loss $\mathcal{L}$?
 
@@ -91,7 +91,7 @@ Check: $0.5 \times 0.25 \times 0.8 = 0.1$, and $-\ln 0.1 = 2.303$. ∎
 :::
 :::
 
-::: exercise uniform-start-loss
+::: flashcard uniform-start-loss
 A model with $V = 32000$ tokens gives every token the same probability. What is its loss?
 
 ::: answer
@@ -99,7 +99,7 @@ $\ln 32000 = 10.37$. Each true token gets $1/V$.
 :::
 :::
 
-::: exercise output-layer-size
+::: flashcard output-layer-size
 The base model has $d_{model} = 512$ and $V = 50000$, and the target has $m = 5$ tokens. How many
 weights does $\mathbf{W}_{out}$ hold, and how many logits does one forward pass produce?
 

@@ -71,7 +71,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 A fit in log space gives $\log_{10} L = 1.07 - 0.077 \log_{10} N$. What are $a$ and $\alpha$ in
 $L = aN^{-\alpha}$?
 
@@ -80,7 +80,7 @@ $a = 10^{1.07} \approx 11.7$ and $\alpha = 0.077$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $L = (8.8 \times 10^{13}/N)^{\alpha}$, what loss do $\alpha = 0.07$ and $\alpha = 0.09$ predict at
 $N = 8.8 \times 10^{10}$?
 

@@ -67,7 +67,7 @@ $$ \operatorname{SelfAttention}(\mathbf{X}) = \operatorname{softmax}\!\left(\fra
 [Self-attention](reference:self-attention)
 :::
 
-::: exercise score-matrix-shape
+::: flashcard score-matrix-shape
 A sequence has $n = 10$ tokens with $d = 512$ and $d_k = 64$. What is the shape of the score
 matrix $\mathbf{S}$?
 
@@ -84,7 +84,7 @@ $$ (10 \times 64)(64 \times 10) = 10 \times 10 $$
 :::
 :::
 
-::: exercise projection-parameter-count
+::: flashcard projection-parameter-count
 With $d = 512$ and $d_k = 64$, how many learned numbers do $\mathbf{W}^Q$, $\mathbf{W}^K$ and
 $\mathbf{W}^V$ hold together?
 
@@ -99,7 +99,7 @@ Three matrices: $3 \times 32{,}768 = 98{,}304$. ∎
 :::
 :::
 
-::: exercise output-shape
+::: flashcard output-shape
 With $n = 10$, $d = 512$ and $d_k = 64$, what is the shape of the output $\mathbf{O}$?
 
 ::: answer

@@ -70,7 +70,7 @@ networks, averages each feature across the examples of a batch. The layer versio
 depend on the batch size or on the other tokens, which suits sequences of any length.
 :::
 
-::: exercise q1
+::: flashcard q1
 Normalize $\mathbf{x} = [2, 4, 6, 8]$, with $\epsilon$ ignored.
 
 ::: answer
@@ -86,7 +86,7 @@ $\hat{\mathbf{x}} = [-3, -1, 1, 3] / 2.236 \approx [-1.34, -0.45, 0.45, 1.34]$. 
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Why does $\mathrm{LayerNorm}(10\,\mathbf{x})$ equal $\mathrm{LayerNorm}(\mathbf{x})$, with $\epsilon$
 ignored?
 

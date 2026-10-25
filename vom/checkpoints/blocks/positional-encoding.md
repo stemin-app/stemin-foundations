@@ -4,7 +4,7 @@ title: Positional encoding
 
 Answer every question without notes. Angles are in radians.
 
-::: exercise q1
+::: question q1
 Why does self-attention without position information give the word "bit" the same output in "the
 dog bit the man" and "the man bit the dog"?
 
@@ -14,7 +14,7 @@ same outputs, in any order.
 :::
 :::
 
-::: exercise q2
+::: question q2
 Give two reasons why appending the raw index $t$ as one more coordinate fails.
 
 ::: answer
@@ -23,7 +23,7 @@ the relative step $1/t$ shrinks along the sequence.
 :::
 :::
 
-::: exercise q3
+::: question q3
 With $d = 8$, compute $\mathbf{p}_2$ to two decimal places.
 
 ::: answer
@@ -38,7 +38,7 @@ $(\sin 0.02, \cos 0.02) = (0.02, 1.00)$; $(\sin 0.002, \cos 0.002) = (0.00, 1.00
 :::
 :::
 
-::: exercise q4
+::: question q4
 With $d = 32$, what are the frequency and the wavelength of pair 8?
 
 ::: answer
@@ -52,7 +52,7 @@ $\lambda_8 = 2\pi / 0.01 \approx 628.3$. ∎
 :::
 :::
 
-::: exercise q5
+::: question q5
 What is $\|\mathbf{p}_t\|$ for $d = 128$, at any position?
 
 ::: answer
@@ -60,7 +60,7 @@ What is $\|\mathbf{p}_t\|$ for $d = 128$, at any position?
 :::
 :::
 
-::: exercise q6
+::: question q6
 One pair has $\omega = 0.25$. Give the rotation matrix that takes position $t$ to position $t + 2$.
 
 ::: answer
@@ -68,7 +68,7 @@ $\begin{bmatrix} \cos 0.5 & \sin 0.5 \\ -\sin 0.5 & \cos 0.5 \end{bmatrix} \appr
 :::
 :::
 
-::: exercise q7
+::: question q7
 With $d = 4$, $\omega_0 = 1$ and $\omega_1 = 0.01$, does $\mathbf{p}_{10} \cdot \mathbf{p}_{12}$
 equal $\mathbf{p}_{50} \cdot \mathbf{p}_{52}$? Give the value.
 
@@ -78,7 +78,7 @@ the offset.
 :::
 :::
 
-::: exercise q8
+::: question q8
 A model uses learned positions with $L_{\max} = 4{,}096$ and $d = 2{,}048$. How many parameters do
 they hold, and what happens at position 5,000?
 

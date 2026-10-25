@@ -88,7 +88,7 @@ A matrix has a size too. The **Frobenius norm** reads the matrix as one long vec
 $$ \|\mathbf{A}\|_F = \sqrt{\sum_{i,j} a_{ij}^2}, \qquad \left\|\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\right\|_F = \sqrt{1 + 4 + 9 + 16} = \sqrt{30} $$
 :::
 
-::: exercise q1
+::: flashcard q1
 Compute the $L^1$, $L^2$ and $L^\infty$ norms of $[1, -2, 2]^T$.
 
 ::: answer
@@ -105,7 +105,7 @@ $\|\mathbf{v}\|_\infty = \max(1, 2, 2) = 2$ ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Normalize $\mathbf{v} = [6, 8]^T$ in the $L^2$ norm.
 
 ::: answer
@@ -113,7 +113,7 @@ $[0.6, 0.8]^T$. Divide by $\|\mathbf{v}\|_2 = 10$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Is $f(\mathbf{v}) = |v_1|$ a norm on $\mathbb{R}^2$?
 
 ::: answer
@@ -121,7 +121,7 @@ No. $f([0, 5]^T) = 0$, but the vector is not zero, so the first rule fails.
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 What is the Euclidean distance between $[1, 2]^T$ and $[4, 6]^T$?
 
 ::: answer

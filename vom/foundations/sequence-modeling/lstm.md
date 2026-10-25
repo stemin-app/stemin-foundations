@@ -34,7 +34,7 @@ copied: $\mathbf{c}_t \approx \mathbf{c}_{t-1}$. The old content is kept by addi
 through a matrix and a squash. A fact written at step 1 can wait in the cell until step 40.
 :::
 
-::: exercise q1
+::: flashcard q1
 One cell entry has $c_{t-1} = 2$, $f_t = 0.9$, $i_t = 0.1$ and $\tilde{c}_t = -1$. What is $c_t$?
 
 ::: answer
@@ -42,7 +42,7 @@ One cell entry has $c_{t-1} = 2$, $f_t = 0.9$, $i_t = 0.1$ and $\tilde{c}_t = -1
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $c_t = 1.7$ and $o_t = 0.5$, what is $h_t$?
 
 ::: answer
@@ -50,7 +50,7 @@ About $0.468$. $0.5 \cdot \tanh(1.7) = 0.5 \cdot 0.935$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 An LSTM has hidden size $d$ and input size $n$. How many weights do its four layers
 $\mathbf{W}_f, \mathbf{W}_i, \mathbf{W}_o, \mathbf{W}_c$ hold, biases left out?
 

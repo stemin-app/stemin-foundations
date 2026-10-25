@@ -116,7 +116,7 @@ $$ \frac{\partial \mathcal{L}}{\partial \mathbf{E}[j, :]} = \sum_{i \,:\, t_i = 
 A token absent from the batch gets zero gradient.
 :::
 
-::: exercise logit-gradient-row
+::: flashcard logit-gradient-row
 With $m = 2$ target positions, position 1 predicts $[0.7, 0.2, 0.1]$ over a vocabulary of 3
 tokens, and its true token is token 1. What is the gradient of $\mathcal{L}$ with respect to the
 logits of position 1?
@@ -134,7 +134,7 @@ The entries sum to 0. ∎
 :::
 :::
 
-::: exercise linear-layer-numbers
+::: flashcard linear-layer-numbers
 A linear layer has one input row $\mathbf{x} = [1, 2]$, weights
 $\mathbf{W} = \begin{bmatrix} 1 & 0 \\ 2 & 1 \end{bmatrix}$, and upstream gradient
 $\frac{\partial \mathcal{L}}{\partial \mathbf{y}} = [3, -1]$. Find
@@ -155,7 +155,7 @@ $$ \frac{\partial \mathcal{L}}{\partial \mathbf{y}}\mathbf{W}^T = [3, -1]\begin{
 :::
 :::
 
-::: exercise repeated-token-gradient
+::: flashcard repeated-token-gradient
 Token 7 appears at positions 2 and 5. The gradients on those embedding rows are $[0.1, -0.2]$
 and $[0.3, 0.1]$. What gradient reaches row 7 of $\mathbf{E}$?
 

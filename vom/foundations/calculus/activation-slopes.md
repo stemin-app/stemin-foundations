@@ -91,7 +91,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 What is $\frac{d\sigma}{dx}$ at $x = 0$?
 
 ::: answer
@@ -99,7 +99,7 @@ $1/4$. $\sigma(0) = 1/2$, and $\frac{1}{2}\left(1 - \frac{1}{2}\right) = \frac{1
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $\sigma(x) = 0.9$ at some $x$. What is the slope there?
 
 ::: answer
@@ -107,7 +107,7 @@ $0.09$. The slope is $0.9 \times 0.1$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $\tanh(x) = 0.8$ at some $x$. What is the slope there?
 
 ::: answer
@@ -115,7 +115,7 @@ $0.36$. The slope is $1 - 0.8^2 = 1 - 0.64$.
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 A gradient of 5 arrives at a ReLU whose input was $-2$. What gradient passes to the input?
 
 ::: answer

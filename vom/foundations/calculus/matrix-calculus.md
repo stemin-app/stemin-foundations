@@ -96,7 +96,7 @@ draw:
 ```
 :::
 
-::: exercise matrix-calculus-linear
+::: flashcard matrix-calculus-linear
 For $f(\mathbf{x}) = \mathbf{a}^T\mathbf{x}$ with $\mathbf{a} = [1, -2, 5]^T$, what is $\nabla f$
 at $\mathbf{x} = [7, 0, 2]^T$?
 
@@ -105,7 +105,7 @@ $[1, -2, 5]^T$. A linear function's gradient is $\mathbf{a}$ at every point.
 :::
 :::
 
-::: exercise matrix-calculus-symmetric
+::: flashcard matrix-calculus-symmetric
 For $\mathbf{A} = \begin{bmatrix} 2 & 1 \\ 1 & 3 \end{bmatrix}$ and $\mathbf{x} = [1, 2]^T$, what is
 $\nabla_\mathbf{x} (\mathbf{x}^T\mathbf{A}\mathbf{x})$?
 
@@ -122,7 +122,7 @@ $$ 2\mathbf{A}\mathbf{x} = \begin{bmatrix} 8 \\ 14 \end{bmatrix} $$
 :::
 :::
 
-::: exercise matrix-calculus-norm
+::: flashcard matrix-calculus-norm
 What is $\nabla_\mathbf{x} \|\mathbf{x}\|_2$ at $\mathbf{x} = [5, 12]^T$?
 
 ::: answer
@@ -138,7 +138,7 @@ $$ \frac{\mathbf{x}}{\|\mathbf{x}\|_2} = \begin{bmatrix} 5/13 \\ 12/13 \end{bmat
 :::
 :::
 
-::: exercise matrix-calculus-squared-norm
+::: flashcard matrix-calculus-squared-norm
 What is $\nabla_\mathbf{x} (\mathbf{x}^T\mathbf{x})$ at $\mathbf{x} = [1, -2, 2]^T$?
 
 ::: answer

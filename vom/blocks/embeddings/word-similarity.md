@@ -72,7 +72,7 @@ The similarity is slightly negative. "Cat" and "dog" are much closer to each oth
 to "car".
 :::
 
-::: exercise similarity-car-truck
+::: flashcard similarity-car-truck
 With $\text{car} = [-0.5, 0.1, 0.6]$ and $\text{truck} = [-0.4, 0.2, 0.5]$, what is
 $\text{sim}(\text{car}, \text{truck})$, to two decimals?
 
@@ -91,7 +91,7 @@ $$ \text{sim} = \frac{0.52}{0.787 \times 0.671} = \frac{0.52}{0.528} \approx 0.9
 :::
 :::
 
-::: exercise similarity-cat-fish
+::: flashcard similarity-cat-fish
 With $\text{cat} = [0.2, 0.8, -0.1]$ and $\text{fish} = [0.1, 0.9, 0.3]$, what is
 $\text{sim}(\text{cat}, \text{fish})$, to two decimals?
 
@@ -110,7 +110,7 @@ $$ \text{sim} = \frac{0.71}{0.831 \times 0.954} = \frac{0.71}{0.792} \approx 0.9
 :::
 :::
 
-::: exercise similarity-scaled
+::: flashcard similarity-scaled
 A vector $\mathbf{u}$ is nonzero. What is $\text{sim}(\mathbf{u}, 3\mathbf{u})$?
 
 ::: answer
@@ -124,7 +124,7 @@ $$ \text{sim}(\mathbf{u}, 3\mathbf{u}) = \frac{3\,\mathbf{u}^T \mathbf{u}}{\|\ma
 :::
 :::
 
-::: exercise similarity-angle
+::: flashcard similarity-angle
 Two embeddings have a cosine similarity of 0.5. What is the angle between them?
 
 ::: answer

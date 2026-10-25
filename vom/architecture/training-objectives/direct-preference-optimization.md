@@ -61,7 +61,7 @@ model to follow requests. RLHF and DPO learn from human comparisons, and align t
 what people prefer.
 :::
 
-::: exercise q1
+::: flashcard q1
 With $\beta = 0.1$, the policy raises the winner's log ratio to 2 and lowers the loser's to $-1$.
 What is the DPO loss on this triple?
 
@@ -76,7 +76,7 @@ $\log(1 + e^{-0.3}) = \ln(1 + 0.741) = \ln 1.741 \approx 0.554$. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Why does the normalizer $Z(x)$ not appear in the DPO loss?
 
 ::: answer
@@ -85,7 +85,7 @@ $\beta \log Z(x)$, so it cancels.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 At the first step of DPO the policy equals the reference. What is the loss of every triple?
 
 ::: answer

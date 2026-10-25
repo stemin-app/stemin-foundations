@@ -63,7 +63,7 @@ every one of them reads the same final encoder output:
 $$ \mathbf{Y}^{(\ell)} = \mathrm{DecoderBlock}_\ell\big(\mathbf{Y}^{(\ell-1)}, \mathbf{X}_{enc}\big), \qquad \mathbf{Y}_{dec} = \mathbf{Y}^{(N)} \in \mathbb{R}^{m \times d_{model}} $$
 :::
 
-::: exercise masked-row-weights
+::: flashcard masked-row-weights
 In one head of masked self-attention, row $i = 2$ of the scaled scores is $[1, 2, 5]$ before
 the mask. What are the attention weights of that row?
 
@@ -83,7 +83,7 @@ $$ a_2 = \frac{e^2}{e^1 + e^2} = \frac{e}{1 + e} = 0.731, \qquad a_3 = 0 $$
 :::
 :::
 
-::: exercise cross-attention-shape
+::: flashcard cross-attention-shape
 The source has $n = 7$ tokens, the target $m = 4$, and $d_k = 64$. What are the shapes of one
 head's $\mathbf{K}_k$ and of its weights $\mathbf{A}_k$ in cross-attention?
 
@@ -93,7 +93,7 @@ the weights pair each target row with each source column.
 :::
 :::
 
-::: exercise causal-weights-count
+::: flashcard causal-weights-count
 In masked self-attention over $m = 5$ target positions, how many entries of one head's
 $\mathbf{A}_k$ can be above zero?
 

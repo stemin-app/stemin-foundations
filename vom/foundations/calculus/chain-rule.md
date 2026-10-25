@@ -94,7 +94,7 @@ Repeat this through every layer and you have backpropagation.
 [Backpropagation](reference:backpropagation)
 :::
 
-::: exercise chain-rule-cubic
+::: flashcard chain-rule-cubic
 What is the derivative of $y = (2x + 5)^3$ at $x = -2$?
 
 ::: answer
@@ -112,7 +112,7 @@ $$ \frac{dy}{dx} = 3 \cdot 1^2 \cdot 2 = 6 $$
 :::
 :::
 
-::: exercise chain-rule-exponential
+::: flashcard chain-rule-exponential
 What is the derivative of $y = e^{3x}$ at $x = 0$?
 
 ::: answer
@@ -128,7 +128,7 @@ $$ 3 e^{0} = 3 $$
 :::
 :::
 
-::: exercise chain-rule-amplifiers
+::: flashcard chain-rule-amplifiers
 The function $g$ multiplies small changes by $4$ and the function $f$ multiplies small changes by
 $0.5$. By what factor does $f(g(x))$ multiply a small change in $x$?
 
@@ -137,7 +137,7 @@ $2$. The factors multiply: $4 \times 0.5$.
 :::
 :::
 
-::: exercise chain-rule-three-links
+::: flashcard chain-rule-three-links
 Write $y = (x^2 + 1)^3$ as the chain $v = x^2$, $u = v + 1$, $y = u^3$. What is $\frac{dy}{dx}$
 at $x = 1$?
 

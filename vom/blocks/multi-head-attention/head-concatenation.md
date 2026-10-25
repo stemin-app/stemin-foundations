@@ -45,7 +45,7 @@ noun. Head 2 may know the context is a river. No single coordinate yet holds "ri
 next step mixes them.
 :::
 
-::: exercise q1
+::: flashcard q1
 A model has $d_k = 64$. Which head owns coordinate 200 of the concatenated vector?
 
 ::: answer
@@ -59,7 +59,7 @@ Head 4 starts at $3 \times 64 + 1 = 193$ and ends at $4 \times 64 = 256$. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model has $d_\text{model} = 768$ and $h = 12$. Which coordinates of the concatenated vector
 come from head 5?
 
@@ -74,7 +74,7 @@ Head 5 starts at $4 \times 64 + 1 = 257$ and ends at $5 \times 64 = 320$. ∎
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A sequence has $n = 10$ tokens, with $h = 8$ heads of width $d_k = 64$. What is the shape of the
 concatenation of all heads?
 

@@ -53,7 +53,7 @@ and $\frac{\partial \mathcal{L}}{\partial \mathbf{b}^{(1)}} = [-0.067, 0, -0.056
 is negative or zero, so a step against them raises the output toward 1.
 :::
 
-::: exercise q1
+::: flashcard q1
 In the example, the label is $y = 0$ instead of 1. What is $\delta^{(2)}$?
 
 ::: answer
@@ -65,7 +65,7 @@ $\delta^{(2)} = (\hat{y} - y)\,\hat{y}(1 - \hat{y}) = 0.55 \cdot 0.2475 \approx 
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With that $\delta^{(2)} \approx 0.136$, what is $\frac{\partial \mathcal{L}}{\partial \mathbf{W}^{(2)}}$?
 
 ::: answer
@@ -73,7 +73,7 @@ About $[0.068, 0, 0.027]$. Multiply $\delta^{(2)}$ by $\mathbf{h}^{(1)} = [0.5, 
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A network has one weight on the path $x \to z = wx \to \hat{y} = z \to \mathcal{L} = \frac{1}{2}(\hat{y} - y)^2$,
 with $x = 2$, $w = 3$ and $y = 4$. What is $\frac{\partial \mathcal{L}}{\partial w}$?
 

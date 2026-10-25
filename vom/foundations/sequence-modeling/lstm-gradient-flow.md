@@ -46,7 +46,7 @@ slowly. An LSTM learns to keep its gates open for the facts that matter, and so 
 longer than a plain RNN.
 :::
 
-::: exercise q1
+::: flashcard q1
 Every forget gate along 50 steps equals 0.98. What fraction of the gradient along the cell
 survives?
 
@@ -55,7 +55,7 @@ About 0.36. $0.98^{49} \approx 0.371$, or $0.98^{50} \approx 0.364$ if you count
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Why does the cell path avoid the exploding gradient as well?
 
 ::: answer

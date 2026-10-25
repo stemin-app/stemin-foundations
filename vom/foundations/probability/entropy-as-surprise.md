@@ -104,7 +104,7 @@ want the model to grow confident about the right answers, so its entropy falls. 
 entropy is one way to see a model learn.
 :::
 
-::: exercise q1
+::: flashcard q1
 What is the entropy of a fair coin?
 
 ::: answer
@@ -118,7 +118,7 @@ $$ H = -0.5 \log 0.5 - 0.5 \log 0.5 = -\log 0.5 = \log 2 \approx 0.693 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 What is the entropy of a uniform distribution over 8 outcomes?
 
 ::: answer
@@ -132,7 +132,7 @@ $$ H = -8 \times \tfrac{1}{8} \log \tfrac{1}{8} = \log 8 \approx 2.079 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 What is the entropy of the distribution $[1,\ 0,\ 0]$?
 
 ::: answer
@@ -140,7 +140,7 @@ $0$. The sure outcome has surprise $-\log 1 = 0$, and the others have probabilit
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 An outcome has probability 0.25. What is its surprise?
 
 ::: answer

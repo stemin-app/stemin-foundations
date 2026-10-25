@@ -53,7 +53,7 @@ same input. Each head computes its own distribution. One head can put all its we
 while another puts all its weight on "Paris".
 :::
 
-::: exercise q1
+::: flashcard q1
 One head attends from "flew" with weight 0.8 on "pilot" and 0.2 on "Paris". The value vectors
 are $\mathbf{v}_\text{pilot} = (1, 0)$ and $\mathbf{v}_\text{Paris} = (0, 1)$. What is the output
 for "flew"?
@@ -69,7 +69,7 @@ $$ 0.8\,(1, 0) + 0.2\,(0, 1) = (0.8, 0) + (0, 0.2) = (0.8, 0.2) $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A head compares two tokens with scores $s_1$ and $s_2$. What score gap $s_1 - s_2$ puts a weight
 of 0.9 on the first token?
 
@@ -90,7 +90,7 @@ $$ \Delta = \ln 9 = 2.197 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Can one attention head give a weight of 0.7 to "pilot" and a weight of 0.7 to "Paris" from the
 same token?
 

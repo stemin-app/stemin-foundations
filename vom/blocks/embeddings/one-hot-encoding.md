@@ -52,7 +52,7 @@ or 512 entries instead of 50,000. Similar words get similar vectors. And the rel
 words show up as geometry: directions and distances in the vector space.
 :::
 
-::: exercise one-hot-zeros
+::: flashcard one-hot-zeros
 A vocabulary holds 50,000 words. How many entries of a one-hot vector are zero?
 
 ::: answer
@@ -60,7 +60,7 @@ A vocabulary holds 50,000 words. How many entries of a one-hot vector are zero?
 :::
 :::
 
-::: exercise one-hot-distance
+::: flashcard one-hot-distance
 What is the Euclidean distance between the one-hot vectors of two different words?
 
 ::: answer
@@ -78,7 +78,7 @@ The result does not depend on $i$ or $j$, so every pair of words is equally far 
 :::
 :::
 
-::: exercise one-hot-cosine
+::: flashcard one-hot-cosine
 What is the cosine similarity of the one-hot vectors for "cat" and "dog"?
 
 ::: answer

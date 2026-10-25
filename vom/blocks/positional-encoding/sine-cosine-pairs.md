@@ -48,7 +48,7 @@ length, whatever the position:
 $$ \|\mathbf{p}_t\|^2 = \sum_{i=0}^{d/2-1} \left(\sin^2 \omega_i t + \cos^2 \omega_i t\right) = \frac{d}{2} $$
 :::
 
-::: exercise q1
+::: flashcard q1
 An angle has $\sin\theta = -0.6$ and $\cos\theta = 0.8$. What is $\theta$ between $0°$ and
 $360°$?
 
@@ -67,7 +67,7 @@ $$ \theta = 360° - 36.87° = 323.13° $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 What is the length $\|\mathbf{p}_t\|$ of a sinusoidal encoding with $d = 512$?
 
 ::: answer
@@ -83,7 +83,7 @@ $$ \|\mathbf{p}_t\| = \sqrt{256} = 16 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A sine-only pair at $\omega = 1$ gives $\sin 1 = 0.841$ at $t = 1$. At what other angle between 0
 and $\pi$ does the sine give 0.841 too?
 

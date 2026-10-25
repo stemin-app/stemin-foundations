@@ -48,7 +48,7 @@ mix.[Multi-head attention](reference:multi-head-attention)
 $$ \text{MultiHead}(\mathbf{X}) = \text{Concat}(\text{head}_1, \dots, \text{head}_h)\, \mathbf{W}^O $$
 :::
 
-::: exercise q1
+::: flashcard q1
 Two heads of width 2 give the concatenated vector $\mathbf{c} = (1, 2, 3, 4)$. The first column of
 $\mathbf{W}^O$ is $(0.5, 0, 0, 0.5)^\top$. What is $z_1$?
 
@@ -65,7 +65,7 @@ $$ z_1 = 0.5 + 2 = 2.5 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model has $d_\text{model} = 768$. How many numbers does $\mathbf{W}^O$ hold?
 
 ::: answer
@@ -79,7 +79,7 @@ $$ 768 \times 768 = 589{,}824 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 In a layer with 8 heads, the column of $\mathbf{W}^O$ for output number 7 has no zero entry. From
 how many heads does $z_7$ draw?
 

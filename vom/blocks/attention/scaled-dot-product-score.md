@@ -50,7 +50,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 Queries and keys have size 64, with independent entries of variance 1. What is the standard
 deviation of $\mathbf{q}^T\mathbf{k}$, and of the scaled score?
 
@@ -59,7 +59,7 @@ deviation of $\mathbf{q}^T\mathbf{k}$, and of the scaled score?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $\mathbf{q} = [2, 0, 1, 1]$ and $\mathbf{k} = [1, 3, 0, 2]$. What is the scaled score?
 
 ::: answer
@@ -67,7 +67,7 @@ $\mathbf{q} = [2, 0, 1, 1]$ and $\mathbf{k} = [1, 3, 0, 2]$. What is the scaled 
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Two scores are 24 and 0. What weight does the softmax give the second? Is the gradient through
 it useful?
 

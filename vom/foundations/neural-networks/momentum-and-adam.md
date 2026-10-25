@@ -84,7 +84,7 @@ optimizer. Repeat until the loss stops falling, and check the result on data the
 trained on. Every network trains this way, from a small MLP to the largest transformer.
 :::
 
-::: exercise q1
+::: flashcard q1
 With $\beta = 0.9$, $\eta = 0.1$, $\mathbf{v} = 0$ and a steady gradient $g = 1$, what is the
 velocity after two steps?
 
@@ -93,7 +93,7 @@ $-0.19$. First $v = -0.1$, then $v = 0.9(-0.1) - 0.1$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $\beta_1 = 0.9$ and $m_0 = 0$, the gradient is 2 at step 1. What are $m_1$ and $\hat{m}_1$?
 
 ::: answer
@@ -101,7 +101,7 @@ $m_1 = 0.2$ and $\hat{m}_1 = 2$. Divide by $1 - 0.9 = 0.1$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Under a steady gradient, what speed does momentum approach with $\beta = 0.99$, in units of the
 plain step $\eta g$?
 

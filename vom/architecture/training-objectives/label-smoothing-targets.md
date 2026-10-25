@@ -77,7 +77,7 @@ With $\epsilon = 0.1$ and $V = 50{,}000$, the correct token's target is $0.90000
 token's is $2 \times 10^{-6}$. The gap settles at $\ln 450{,}001 \approx 13.0$, not at infinity.
 :::
 
-::: exercise ls-four-tokens
+::: flashcard ls-four-tokens
 A vocabulary has $V = 4$ tokens and $\epsilon = 0.1$. What is the smoothed target?
 
 ::: answer
@@ -93,7 +93,7 @@ Check: $0.925 + 3 \times 0.025 = 1$. ∎
 :::
 :::
 
-::: exercise ls-logit-gap
+::: flashcard ls-logit-gap
 With $V = 4$ and $\epsilon = 0.2$, the loss is minimal at the smoothed target. What gap
 $z_y - z_j$ between the correct logit and another logit does that require?
 
@@ -110,7 +110,7 @@ The softmax gives $\frac{q_y}{q_j} = e^{z_y - z_j}$, so $z_y - z_j = \ln \frac{0
 :::
 :::
 
-::: exercise ls-full-smoothing
+::: flashcard ls-full-smoothing
 What is the smoothed target when $\epsilon = 1$?
 
 ::: answer

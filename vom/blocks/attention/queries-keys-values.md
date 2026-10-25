@@ -32,7 +32,7 @@ every key matches a little, and the best matches dominate. Because every step is
 gradients flow through the lookup, and training can learn what to ask and what to offer.
 :::
 
-::: exercise q1
+::: flashcard q1
 Queries have size 64 and values have size 32. What size must the keys have, and what size is
 the output?
 
@@ -42,7 +42,7 @@ values.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Two keys score 2 and 0 against a query. What are the two attention weights?
 
 ::: answer

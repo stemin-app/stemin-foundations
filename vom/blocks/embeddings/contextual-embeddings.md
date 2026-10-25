@@ -79,7 +79,7 @@ draw:
 ```
 :::
 
-::: exercise contextual-shape
+::: flashcard contextual-shape
 A sentence of 12 tokens enters a model with $d = 768$. What is the shape of $\mathbf{X}$, and how
 many numbers does it hold?
 
@@ -88,7 +88,7 @@ $12 \times 768$, which holds 9,216 numbers. One row per token, one column per di
 :::
 :::
 
-::: exercise contextual-cone
+::: flashcard contextual-cone
 All embeddings of a model lie within 30° of one direction. What is the lowest cosine similarity
 two of them can have?
 
@@ -97,7 +97,7 @@ two of them can have?
 :::
 :::
 
-::: exercise contextual-static-count
+::: flashcard contextual-static-count
 In a static embedding table, how many vectors does the word "bank" have?
 
 ::: answer

@@ -78,7 +78,7 @@ columns parallel, for example $a_{11} = 1$, $a_{21} = 1$, $a_{12} = 2$, $a_{22} 
 ellipse flattens to a segment. A matrix with parallel columns crushes the plane onto a line.
 :::
 
-::: exercise q1
+::: flashcard q1
 Compute $\begin{bmatrix} 2 & -1 \\ 0 & 3 \end{bmatrix}\begin{bmatrix} 4 \\ 1 \end{bmatrix}$.
 
 ::: answer
@@ -92,7 +92,7 @@ Row 2: $0 \cdot 4 + 3 \cdot 1 = 3$. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A matrix $\mathbf{W} \in \mathbb{R}^{64 \times 512}$ multiplies a vector $\mathbf{x}$. How long
 must $\mathbf{x}$ be, and how long is $\mathbf{W}\mathbf{x}$?
 
@@ -102,7 +102,7 @@ length matches the columns; the output length matches the rows.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Use the column view to compute $\begin{bmatrix} 1 & 0 & 2 \\ 0 & 1 & -1 \end{bmatrix}\begin{bmatrix} 1 \\ 1 \\ 1 \end{bmatrix}$.
 
 ::: answer
@@ -116,7 +116,7 @@ $$ 1\begin{bmatrix} 1 \\ 0 \end{bmatrix} + 1\begin{bmatrix} 0 \\ 1 \end{bmatrix}
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 Where does $\begin{bmatrix} 3 & 1 \\ 1 & 2 \end{bmatrix}$ send $\mathbf{e}_2$?
 
 ::: answer

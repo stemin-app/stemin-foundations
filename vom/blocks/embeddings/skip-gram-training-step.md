@@ -72,7 +72,7 @@ opposed vectors. And words with the same contexts, like "cat" and "dog" near "pe
 "fed", end up with similar vectors, because the same context words pull on both.
 :::
 
-::: exercise training-step-sigmoid-slope
+::: flashcard training-step-sigmoid-slope
 For the positive pair (cat, the), what is $\frac{d}{dx} \ln \sigma(x)$ at the dot product
 $x = 0.03$?
 
@@ -91,7 +91,7 @@ $$ 1 - 0.5075 = 0.4925 $$
 :::
 :::
 
-::: exercise training-step-gradient
+::: flashcard training-step-gradient
 What is the gradient of $\ln \sigma(\mathbf{w}'_{\text{the}}{}^T \mathbf{w}_{\text{cat}})$
 with respect to $\mathbf{w}_{\text{cat}}$, to four decimals?
 
@@ -110,7 +110,7 @@ $$ = 0.4925 \times [0.3, 0.1, 0.2]^T = [0.1478,\ 0.0493,\ 0.0985]^T $$
 :::
 :::
 
-::: exercise training-step-update
+::: flashcard training-step-update
 Take one step of gradient ascent on $\mathbf{w}_{\text{cat}}$ alone, with step size 1 and the
 gradient $[0.1478, 0.0493, 0.0985]^T$. What is the new dot product with $\mathbf{w}'_{\text{the}}$?
 

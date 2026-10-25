@@ -72,7 +72,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 $\mathbf{W}_h = \mathrm{diag}(0.5, 1)$. What is $\mathbf{W}_h^{10}$?
 
 ::: answer
@@ -81,7 +81,7 @@ the power.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A gradient $\mathbf{g} = [6, 8]^T$ is clipped with $\tau = 5$. What is the result?
 
 ::: answer
@@ -89,7 +89,7 @@ $[3, 4]^T$. The norm is 10, so the gradient is scaled by $5/10$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 An eigenvalue is $0.95$. After how many steps does its power first fall below $0.5$?
 
 ::: answer

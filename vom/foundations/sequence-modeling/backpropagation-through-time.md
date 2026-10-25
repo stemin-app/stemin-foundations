@@ -38,7 +38,7 @@ The diagonal holds the slopes of tanh, each in $(0, 1]$. The same $\mathbf{W}_h$
 factor.
 :::
 
-::: exercise q1
+::: flashcard q1
 A sequence has 30 steps and the loss sits at the last one. How many Jacobians multiply together
 on the way from $\mathbf{h}_{30}$ back to $\mathbf{h}_1$?
 
@@ -47,7 +47,7 @@ on the way from $\mathbf{h}_{30}$ back to $\mathbf{h}_1$?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A scalar RNN has $h_t = \tanh(w\,h_{t-1} + x_t)$. What is $\frac{\partial h_t}{\partial h_{t-1}}$
 at a step where $h_t = 0.6$ and $w = 0.8$?
 

@@ -71,7 +71,7 @@ $$ \mathbb{E}[aX + bY] = a\,\mathbb{E}[X] + b\,\mathbb{E}[Y] $$
 This holds even when $X$ and $Y$ depend on each other, which is why a mean is so easy to work with.
 :::
 
-::: exercise q1
+::: flashcard q1
 A game pays 1 when a coin lands heads and 0 when it lands tails. The coin lands heads with
 probability 0.3. What is the expected payout?
 
@@ -80,7 +80,7 @@ $0.3$. Only heads adds to the sum: $1 \times 0.3 + 0 \times 0.7$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $X$ takes the values 0, 1 and 2 with probabilities 0.2, 0.5 and 0.3. What is $\mathbb{E}[X]$?
 
 ::: answer
@@ -94,7 +94,7 @@ $$ \mathbb{E}[X] = 0 \times 0.2 + 1 \times 0.5 + 2 \times 0.3 = 0 + 0.5 + 0.6 = 
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $X$ is the roll of a fair die. What is $\mathbb{E}[2X + 1]$?
 
 ::: answer

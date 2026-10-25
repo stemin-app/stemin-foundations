@@ -89,7 +89,7 @@ $$ D_{KL}(p \,\|\, q) = 0.082 \qquad D_{KL}(q \,\|\, p) = 0.087 $$
 Swap the two distributions and the number changes.
 :::
 
-::: exercise q1
+::: flashcard q1
 What is $D_{KL}(p \,\|\, p)$ for any distribution $p$?
 
 ::: answer
@@ -97,7 +97,7 @@ $0$. Every ratio $p(x)/p(x)$ is 1, and $\log 1 = 0$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 The truth is $p = [1,\ 0]$ and the model is $q = [0.8,\ 0.2]$. What is $D_{KL}(p \,\|\, q)$?
 
 ::: answer
@@ -111,7 +111,7 @@ $$ D_{KL}(p \,\|\, q) = 1 \cdot \log \frac{1}{0.8} + 0 = \log 1.25 \approx 0.223
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 The truth is $p = [0.5,\ 0.5]$ and the model is $q = [0.9,\ 0.1]$. What is $D_{KL}(p \,\|\, q)$?
 
 ::: answer
@@ -129,7 +129,7 @@ $$ D_{KL}(p \,\|\, q) = -0.294 + 0.805 = 0.511 $$
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 A model has cross-entropy 1.2 nats against a truth whose entropy is 0.9 nats. What is the KL
 divergence?
 

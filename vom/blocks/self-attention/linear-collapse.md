@@ -50,7 +50,7 @@ one. A curved boundary, around the two "on" points, does the job. To draw curves
 a nonlinearity.
 :::
 
-::: exercise q1
+::: flashcard q1
 $\mathbf{W}_1 = \begin{bmatrix} 1 & 1 \\ 0 & 2 \end{bmatrix}$ and $\mathbf{W}_2 = \begin{bmatrix} 2 & 0 \\ 1 & 1 \end{bmatrix}$
 act one after the other with no bend. Which single matrix does the same?
 
@@ -59,7 +59,7 @@ $\begin{bmatrix} 2 & 2 \\ 1 & 3 \end{bmatrix}$, the product $\mathbf{W}_2\mathbf
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 AND is on only at $(1, 1)$. Can one straight line separate it? Give one if so.
 
 ::: answer

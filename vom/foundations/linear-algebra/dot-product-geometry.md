@@ -103,7 +103,7 @@ $\begin{bmatrix} 1 & 2 & 3 \end{bmatrix}^T$ and $\begin{bmatrix} 2 & 4 & 6 \end{
 have cosine similarity 1: one is twice the other.
 :::
 
-::: exercise q1
+::: flashcard q1
 Compute $\begin{bmatrix} 2 \\ -1 \\ 3 \end{bmatrix} \cdot \begin{bmatrix} 4 \\ 0 \\ -2 \end{bmatrix}$.
 
 ::: answer
@@ -111,7 +111,7 @@ Compute $\begin{bmatrix} 2 \\ -1 \\ 3 \end{bmatrix} \cdot \begin{bmatrix} 4 \\ 0
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 What is the angle between $\begin{bmatrix} 1 \\ 0 \end{bmatrix}$ and $\begin{bmatrix} 1 \\ 1 \end{bmatrix}$?
 
 ::: answer
@@ -129,7 +129,7 @@ $$ \cos\theta = \frac{1}{1 \cdot \sqrt{2}} = \frac{1}{\sqrt{2}} \implies \theta 
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Find the cosine similarity of $\begin{bmatrix} 1 \\ 2 \\ 2 \end{bmatrix}$ and
 $\begin{bmatrix} 2 \\ 1 \\ -2 \end{bmatrix}$.
 
@@ -148,7 +148,7 @@ $$ \cos\theta = \frac{0}{3 \cdot 3} = 0 $$
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 For which $k$ is $\begin{bmatrix} 3 \\ k \end{bmatrix}$ orthogonal to $\begin{bmatrix} 2 \\ 6 \end{bmatrix}$?
 
 ::: answer

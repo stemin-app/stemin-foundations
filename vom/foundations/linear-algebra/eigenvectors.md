@@ -83,7 +83,7 @@ turns every direction, unless $\theta$ is $0$ or $\pi$. Its eigenvalues are the 
 $\cos\theta \pm i\sin\theta$. Complex eigenvalues are the mark of a rotation.
 :::
 
-::: exercise q1
+::: flashcard q1
 Find the eigenvalues of $\begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$.
 
 ::: answer
@@ -101,7 +101,7 @@ $\lambda_1 = 3$, $\lambda_2 = 1$ ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Find an eigenvector of $\begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}$ for the eigenvalue 3.
 
 ::: answer
@@ -110,7 +110,7 @@ $-v_1 + v_2 = 0$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $\mathbf{A}$ has eigenvector $\mathbf{v}$ with eigenvalue 0.5. What is $\mathbf{A}^3\mathbf{v}$?
 
 ::: answer
@@ -118,7 +118,7 @@ $0.125\,\mathbf{v}$. Each product scales $\mathbf{v}$ by 0.5.
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 What are the eigenvalues of $\mathrm{diag}(4, -1, 7)$?
 
 ::: answer

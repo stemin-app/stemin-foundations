@@ -59,7 +59,7 @@ tokens the floor is $(5400)^{0.095} \approx 2.26$ nats, and no model size gets u
 gaining, grow both.
 :::
 
-::: exercise unified-data-floor
+::: flashcard unified-data-floor
 A model trains on $5.4 \times 10^{11}$ tokens. Under the unified law, what is the lowest loss any
 model size can reach?
 
@@ -76,7 +76,7 @@ $$ L(\infty, D) = 100^{0.095} = 10^{0.19} = 1.55\ \text{nats} $$
 :::
 :::
 
-::: exercise unified-both-finite
+::: flashcard unified-both-finite
 A model has $N = 8.8 \times 10^{11}$ parameters and trains on $D = 5.4 \times 10^{11}$ tokens.
 What loss does the unified law give?
 
@@ -95,7 +95,7 @@ This is above both single laws, 1.42 nats and 1.55 nats. ∎
 :::
 :::
 
-::: exercise unified-conversion
+::: flashcard unified-conversion
 What is the conversion power $\alpha_N / \alpha_D$ in the unified law, with Kaplan's exponents?
 
 ::: answer

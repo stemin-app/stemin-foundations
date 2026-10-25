@@ -58,7 +58,7 @@ The matrix $\mathbf{E}$ starts random and trains with the rest of the model by
 predict the next token. Rows that help the prediction stay. The others change.
 :::
 
-::: exercise subword-llama-parameters
+::: flashcard subword-llama-parameters
 A model has $V = 32{,}000$ tokens and $d = 4{,}096$. How many parameters does its embedding
 matrix hold?
 
@@ -73,7 +73,7 @@ $$ V \times d = 32{,}000 \times 4{,}096 = 131{,}072{,}000 $$
 :::
 :::
 
-::: exercise subword-double-dimension
+::: flashcard subword-double-dimension
 You double the model dimension $d$ and keep the vocabulary. By what factor does the number of
 embedding parameters change?
 
@@ -82,7 +82,7 @@ It doubles. The count $V \times d$ is linear in $d$.
 :::
 :::
 
-::: exercise subword-memory
+::: flashcard subword-memory
 GPT-2 stores its 38,597,376 embedding parameters as 32-bit floats, 4 bytes each. How many
 megabytes is that, with 1 MB = $10^6$ bytes?
 

@@ -29,7 +29,7 @@ two positions into the attention score itself. **Rotary** encodings rotate the q
 their position, the rotation idea of the sinusoidal encoding applied inside attention.
 :::
 
-::: exercise q1
+::: flashcard q1
 A model has $L_{\max} = 2{,}048$ and $d = 1{,}024$. How many parameters do its learned position
 embeddings hold?
 
@@ -38,7 +38,7 @@ embeddings hold?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model with learned positions and $L_{\max} = 1{,}024$ must read 1,500 tokens. Which positions
 have no learned row?
 

@@ -33,7 +33,7 @@ position to every other, but its weights are fixed parameters, the same for ever
 to one input length. Attention routes by content, and it works for any length.
 :::
 
-::: exercise q1
+::: flashcard q1
 Without positional information, does attention give different outputs for "the cat sat" and "sat
 the cat"?
 
@@ -42,7 +42,7 @@ No. It gives the same output vector for each word, only in a different order.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Name the property that lets one trained attention layer route information differently for two
 different sentences.
 

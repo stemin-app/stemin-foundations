@@ -71,7 +71,7 @@ become $[\text{transform}, \text{er}, \text{ize}]$. Every piece is familiar, tho
 word is not.
 :::
 
-::: exercise bpe-first-merge
+::: flashcard bpe-first-merge
 A corpus holds the words "hug", "hugs" and "bug". Which pair does BPE merge first?
 
 ::: answer
@@ -89,7 +89,7 @@ Counts: $(\text{u}, \text{g})$ 3, $(\text{h}, \text{u})$ 2, $(\text{g}, \text{s}
 :::
 :::
 
-::: exercise bpe-vocabulary-size
+::: flashcard bpe-vocabulary-size
 On the corpus "hug", "hugs", "bug", BPE makes two merges. How many tokens does the vocabulary hold
 after them?
 
@@ -110,7 +110,7 @@ $$ 5 + 2 = 7 $$
 :::
 :::
 
-::: exercise bpe-merge-count
+::: flashcard bpe-merge-count
 A byte-level BPE starts from 256 byte tokens and adds one token per merge. How many merges give
 a vocabulary of 50,256 tokens?
 

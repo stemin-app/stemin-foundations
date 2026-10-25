@@ -59,7 +59,7 @@ The output moved. The network wrote "size is above weight" into the new coordina
 went up, the second down.
 :::
 
-::: exercise q1
+::: flashcard q1
 In the toy FFN, what is the output for $\mathbf{x} = [6, 2]$?
 
 ::: answer
@@ -67,7 +67,7 @@ $[7, 1]$. The hidden layer is $[6, 2, 2]$, and $\mathbf{W}_2$ adds $\pm 1$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $d = 512$ and $d_{ff} = 2048$. How many parameters does the FFN hold, biases included?
 
 ::: answer

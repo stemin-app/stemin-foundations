@@ -85,7 +85,7 @@ The two rules are separate. The scores $[0.6,\ 0.5,\ -0.1]$ add up to 1, but one
 negative, so they are not a distribution. A sum of one is not enough on its own.
 :::
 
-::: exercise q1
+::: flashcard q1
 A fair eight-sided die shows the numbers 1 to 8. What is $p(3)$?
 
 ::: answer
@@ -93,7 +93,7 @@ $\frac{1}{8} = 0.125$. Eight outcomes share the total of 1 equally.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model gives three words the probabilities $[0.5,\ 0.3,\ 0.3]$. Is this a valid distribution?
 
 ::: answer
@@ -109,7 +109,7 @@ The second rule fails, so it is not a distribution. ∎
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A model has no idea which of five words comes next. What probability does it give each word?
 
 ::: answer

@@ -70,7 +70,7 @@ So the fast dimensions tell neighbours apart, and the slow dimensions tell regio
 sequence apart. Together they give each position a fingerprint of its own.
 :::
 
-::: exercise q1
+::: flashcard q1
 With $d = 16$, what is the wavelength of pair 4?
 
 ::: answer
@@ -86,7 +86,7 @@ $$ \lambda_4 = \frac{2\pi}{0.01} = 628.3 $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $d = 8$, pair 0 encodes position 63 as $(\sin 63, \cos 63)$. Compute it to two decimal
 places, and compare it with position 0.
 
@@ -105,7 +105,7 @@ $$ (\sin 63, \cos 63) = (\sin 0.168, \cos 0.168) = (0.17, 0.99) $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 With $d = 8$, which is the fastest pair that clearly tells position 63 from position 0?
 
 ::: answer

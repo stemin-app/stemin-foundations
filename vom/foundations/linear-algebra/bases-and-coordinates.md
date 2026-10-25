@@ -106,7 +106,7 @@ matrices project word vectors into new bases, learned from data, in which words 
 interact line up.
 :::
 
-::: exercise q1
+::: flashcard q1
 Are $\begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}$, $\begin{bmatrix} 0 \\ 1 \\ 1 \end{bmatrix}$ and
 $\begin{bmatrix} 1 \\ 1 \\ 2 \end{bmatrix}$ linearly independent?
 
@@ -122,7 +122,7 @@ weights. The set is dependent. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Find the coordinates of $\begin{bmatrix} 5 \\ 1 \end{bmatrix}$ in the basis
 $\mathbf{b}_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$, $\mathbf{b}_2 = \begin{bmatrix} 1 \\ -1 \end{bmatrix}$.
 
@@ -139,7 +139,7 @@ Check: $3\begin{bmatrix} 1 \\ 1 \end{bmatrix} + 2\begin{bmatrix} 1 \\ -1 \end{bm
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A basis of a vector space holds 6 vectors. What is the dimension of the space, and can 7 vectors
 of it be linearly independent?
 

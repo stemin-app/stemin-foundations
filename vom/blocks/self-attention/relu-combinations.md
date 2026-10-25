@@ -53,7 +53,7 @@ space into many regions, and each region gets its own linear map. From far away 
 smooth. With enough units, such a network can approximate any continuous function.
 :::
 
-::: exercise q1
+::: flashcard q1
 In the XOR network, what does the output give for the input $(0.5, 0.5)$?
 
 ::: answer
@@ -61,7 +61,7 @@ In the XOR network, what does the output give for the input $(0.5, 0.5)$?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A curve on a line is made of 10 straight pieces. How many bends does it have, and so how many
 ReLU units at least does it need?
 

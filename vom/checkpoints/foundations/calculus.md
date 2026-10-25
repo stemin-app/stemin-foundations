@@ -4,7 +4,7 @@ title: Calculus
 
 Answer every question without notes. Use Leibniz notation for every derivative.
 
-::: exercise q1
+::: question q1
 Find $\displaystyle \lim_{x \to 4} \frac{x^2 - 16}{x - 4}$.
 
 ::: answer
@@ -12,7 +12,7 @@ Find $\displaystyle \lim_{x \to 4} \frac{x^2 - 16}{x - 4}$.
 :::
 :::
 
-::: exercise q2
+::: question q2
 Use the limit definition to find the derivative of $f(x) = 3x^2$ at $x = 1$.
 
 ::: answer
@@ -26,7 +26,7 @@ As $h \to 0$, $6 + 3h \to 6$. ∎
 :::
 :::
 
-::: exercise q3
+::: question q3
 Find $\frac{dy}{dx}$ for $y = \ln(x^2 + 1)$, and its value at $x = 1$.
 
 ::: answer
@@ -42,7 +42,7 @@ $\frac{dy}{dx} = \frac{2x}{x^2 + 1}$. At $x = 1$: $\frac{2}{2} = 1$. ∎
 :::
 :::
 
-::: exercise q4
+::: question q4
 For $f(x, y) = x^3 y^2$, find $\nabla f$ at $(1, 2)$.
 
 ::: answer
@@ -56,7 +56,7 @@ $\frac{\partial f}{\partial y} = 2x^3 y = 2 \cdot 1 \cdot 2 = 4$. ∎
 :::
 :::
 
-::: exercise q5
+::: question q5
 At a point, $\nabla f = [5, -12]^T$. What is the steepest slope, and what is the slope in the
 direction $[1, 0]^T$?
 
@@ -66,7 +66,7 @@ $\nabla f \cdot \mathbf{u}$.
 :::
 :::
 
-::: exercise q6
+::: question q6
 Let $z = y_1^2 + y_2$, with $y_1 = 2x$ and $y_2 = x^3$. Find $\frac{dz}{dx}$ at $x = 1$ by
 adding the two paths.
 
@@ -85,7 +85,7 @@ Sum: 11. Check: $z = 4x^2 + x^3$, so $\frac{dz}{dx} = 8x + 3x^2 = 11$. ∎
 :::
 :::
 
-::: exercise q7
+::: question q7
 Find the Jacobian of $\mathbf{y} = [x_1 x_2, \; x_1^2]^T$ at $(2, 3)$.
 
 ::: answer
@@ -99,7 +99,7 @@ Row 2: $\left[\frac{\partial y_2}{\partial x_1}, \frac{\partial y_2}{\partial x_
 :::
 :::
 
-::: exercise q8
+::: question q8
 A layer has Jacobian $\mathbf{J} = \begin{bmatrix} 1 & 2 \\ 0 & 1 \\ 3 & 0 \end{bmatrix}$, and the
 gradient at its output is $[1, 1, 1]^T$. What is the gradient at its input?
 
@@ -114,7 +114,7 @@ $\mathbf{J}^T [1, 1, 1]^T = [1 + 0 + 3, \; 2 + 1 + 0]^T = [4, 3]^T$. ∎
 :::
 :::
 
-::: exercise q9
+::: question q9
 $\sigma(x) = 0.2$ at some $x$. What is $\frac{d\sigma}{dx}$ there?
 
 ::: answer
@@ -122,7 +122,7 @@ $0.16$. The slope is $0.2 \times 0.8$.
 :::
 :::
 
-::: exercise q10
+::: question q10
 With $\mathbf{p} = \mathrm{softmax}(\mathbf{z}) = [0.6, 0.4]$, find the Jacobian
 $\frac{\partial p_i}{\partial z_j}$.
 

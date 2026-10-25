@@ -80,7 +80,7 @@ draw:
 ```
 :::
 
-::: exercise derivative-square-negative
+::: flashcard derivative-square-negative
 What is the derivative of $x^2$ at $x = -2$?
 
 ::: answer
@@ -88,7 +88,7 @@ $-4$. Use $\frac{d}{dx} x^2 = 2x$.
 :::
 :::
 
-::: exercise secant-slope-half
+::: flashcard secant-slope-half
 What is the slope of the secant line of $f(x) = x^2$ from $x = 3$ to $x = 3.5$?
 
 ::: answer
@@ -102,7 +102,7 @@ $$ \frac{f(3.5) - f(3)}{0.5} = \frac{12.25 - 9}{0.5} = \frac{3.25}{0.5} = 6.5 $$
 :::
 :::
 
-::: exercise derivative-cube-first-principles
+::: flashcard derivative-cube-first-principles
 Use the limit definition to find the derivative of $f(x) = x^3$ at $x = 2$.
 
 ::: answer

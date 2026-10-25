@@ -107,7 +107,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 $f(\theta) = \theta^2$, $\theta_0 = 2$ and $\eta = 0.25$. What are $\theta_1$ and $\theta_2$?
 
 ::: answer
@@ -115,7 +115,7 @@ $\theta_1 = 1$ and $\theta_2 = 0.5$. Each step multiplies $\theta$ by $1 - 2\eta
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 For $f(\theta) = \theta^2$, which learning rate reaches the minimum in one step from any start?
 
 ::: answer
@@ -123,7 +123,7 @@ $\eta = 0.5$. Then $1 - 2\eta = 0$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 For $f(\theta) = 3\theta^2$, above which learning rate does gradient descent diverge?
 
 ::: answer
@@ -139,7 +139,7 @@ So $\eta > 1/3$. ∎
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 The gradient noise of a single example has standard deviation 0.8. What is it for a batch of
 16 independent examples?
 

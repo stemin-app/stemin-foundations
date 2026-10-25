@@ -4,7 +4,7 @@ title: Embeddings
 
 Answer every question without notes. Use the natural logarithm.
 
-::: exercise q1
+::: question q1
 Why can a network learn nothing about "dog" from what it learned about "cat" when both are
 one-hot vectors?
 
@@ -14,7 +14,7 @@ never see the other.
 :::
 :::
 
-::: exercise q2
+::: question q2
 An embedding matrix has $V = 30{,}000$ and $d = 512$. How many parameters does it hold, and how
 many rows get a gradient from a batch that contains 40 distinct tokens?
 
@@ -23,7 +23,7 @@ many rows get a gradient from a batch that contains 40 distinct tokens?
 :::
 :::
 
-::: exercise q3
+::: question q3
 Find the cosine similarity of $[1, 2, 2]$ and $[2, 1, 2]$.
 
 ::: answer
@@ -39,7 +39,7 @@ Similarity: $8 / (3 \cdot 3) = 8/9$. ∎
 :::
 :::
 
-::: exercise q4
+::: question q4
 In two dimensions, $\mathbf{e}_{\text{Paris}} = (2, 5)$, $\mathbf{e}_{\text{France}} = (1, 1)$
 and $\mathbf{e}_{\text{Italy}} = (4, 1)$. Compute
 $\mathbf{e}_{\text{Paris}} - \mathbf{e}_{\text{France}} + \mathbf{e}_{\text{Italy}}$. Which word
@@ -50,7 +50,7 @@ $(5, 5)$. It should lie near "Rome".
 :::
 :::
 
-::: exercise q5
+::: question q5
 In "a b c d e" with a window of $c = 2$, how many (center, context) pairs are there?
 
 ::: answer
@@ -68,7 +68,7 @@ Total: $4 + 6 + 4 = 14$. ∎
 :::
 :::
 
-::: exercise q6
+::: question q6
 With negative sampling, $k = 2$, a positive dot product of 0 and two negative dot products of 0,
 what is $\mathcal{L}$?
 
@@ -77,7 +77,7 @@ $3 \log 0.5 \approx -2.079$. Every sigmoid is $\sigma(0) = 0.5$.
 :::
 :::
 
-::: exercise q7
+::: question q7
 A corpus holds "aab", "aab" and "ab". Which pair does BPE merge first, and what does the corpus
 look like after it?
 
@@ -94,7 +94,7 @@ Counts: $(\text{a}, \text{b})$ 3, $(\text{a}, \text{a})$ 2. Merge $(\text{a}, \t
 :::
 :::
 
-::: exercise q8
+::: question q8
 What does "contextual embedding" mean, and which part of a transformer produces it?
 
 ::: answer

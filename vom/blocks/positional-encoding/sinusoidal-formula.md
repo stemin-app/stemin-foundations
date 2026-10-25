@@ -56,7 +56,7 @@ Every value lies between $-1$ and $1$, whatever $t$ is. The rule is a formula, n
 position 10,000 gets a vector as easily as position 3, even if training never reached it.
 :::
 
-::: exercise q1
+::: flashcard q1
 With $d = 8$, compute the positional encoding $\mathbf{p}_5$ to three decimal places.
 
 ::: answer
@@ -83,7 +83,7 @@ $$ \mathbf{p}_5 = (-0.959,\ 0.284,\ 0.479,\ 0.878,\ 0.050,\ 0.999,\ 0.005,\ 1.00
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A model has $d = 16$. What is the frequency $\omega_2$ of pair 2?
 
 ::: answer
@@ -97,7 +97,7 @@ $$ \omega_2 = \frac{1}{10000^{4/16}} = \frac{1}{10000^{0.25}} = \frac{1}{10} = 0
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 With $d = 8$, what is dimension 5 of $\mathbf{p}_{100}$?
 
 ::: answer
@@ -111,7 +111,7 @@ $$ p_{100,5} = \cos(0.01 \times 100) = \cos 1 = 0.540 $$
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 With $d = 8$, which dimension holds the sine at frequency $\omega_3$?
 
 ::: answer

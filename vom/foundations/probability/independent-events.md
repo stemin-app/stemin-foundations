@@ -74,7 +74,7 @@ $\operatorname{Var}(X + Y) = \operatorname{Var}(2X) = 4\operatorname{Var}(X)$, n
 Two terms that move together add their spreads more than independent ones do.
 :::
 
-::: exercise q1
+::: flashcard q1
 $A$ and $B$ are independent, with $P(A) = 0.3$ and $P(B) = 0.5$. What is $P(A \text{ and } B)$?
 
 ::: answer
@@ -82,7 +82,7 @@ $0.15$. Multiply the two probabilities.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $P(A) = 0.4$, $P(B) = 0.5$ and $P(A \text{ and } B) = 0.3$. Are $A$ and $B$ independent?
 
 ::: answer
@@ -90,7 +90,7 @@ No. The product is $0.4 \times 0.5 = 0.2$, not $0.3$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $X$ and $Y$ are independent, with $\operatorname{Var}(X) = 2$ and $\operatorname{Var}(Y) = 3$.
 What is $\operatorname{Var}(X + Y)$?
 
@@ -99,7 +99,7 @@ $5$. Variances of independent variables add.
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 A neuron has 100 independent inputs, each of mean 0 and variance 1. Its weights are independent of
 the inputs and of each other, with mean 0. What weight variance keeps the output variance at 1?
 

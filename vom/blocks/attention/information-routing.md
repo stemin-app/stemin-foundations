@@ -35,7 +35,7 @@ Each grid is a matrix of weights: a row per query position, a column per key pos
 cell is a larger weight.
 :::
 
-::: exercise q1
+::: flashcard q1
 A sequence grows from 1,000 to 4,000 tokens. By what factor does the number of attention scores
 grow?
 
@@ -44,7 +44,7 @@ grow?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 In a weight matrix, column 1 is dark in every row. What does that mean?
 
 ::: answer

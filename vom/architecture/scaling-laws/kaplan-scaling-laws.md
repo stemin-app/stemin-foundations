@@ -108,7 +108,7 @@ showed that growing parameters and data together uses compute better. The power 
 the constants moved.
 :::
 
-::: exercise kaplan-tenfold-parameters
+::: flashcard kaplan-tenfold-parameters
 Under Kaplan's law $L(N) = (N_c/N)^{0.076}$, by what factor does the loss fall when the model
 grows ten times?
 
@@ -123,7 +123,7 @@ $1 / 0.839 = 1.19$, and $1 - 0.839 = 0.161$. ∎
 :::
 :::
 
-::: exercise kaplan-loss-at-size
+::: flashcard kaplan-loss-at-size
 What loss does Kaplan's parameter law give for a model with $8.8 \times 10^{11}$ parameters?
 
 ::: answer
@@ -139,7 +139,7 @@ $$ L = 100^{0.076} = 10^{0.152} = 1.42\ \text{nats} $$
 :::
 :::
 
-::: exercise kaplan-halve-loss
+::: flashcard kaplan-halve-loss
 Under $L(C) = (C_c/C)^{0.050}$, by what factor must the compute grow to halve the loss?
 
 ::: answer

@@ -67,7 +67,7 @@ different subject, so the task reduces to topic detection, not coherence. RoBERT
 trained with MLM alone, and did better.
 :::
 
-::: exercise mlm-thousand-tokens
+::: flashcard mlm-thousand-tokens
 An input holds 1000 tokens. With the standard masking, how many positions do you expect to show
 [MASK], a random token, and the original token while still being predicted?
 
@@ -86,7 +86,7 @@ Unchanged: $0.1 \times 150 = 15$ ∎
 :::
 :::
 
-::: exercise mlm-unchanged-purpose
+::: flashcard mlm-unchanged-purpose
 Why does MLM leave 10% of the selected tokens unchanged?
 
 ::: answer
@@ -94,7 +94,7 @@ So the model learns that any position may need a prediction. At fine-tuning ther
 :::
 :::
 
-::: exercise nsp-chance
+::: flashcard nsp-chance
 A model ignores the input and always gives $P(\text{IsNext}) = 0.5$. What is its NSP loss on every
 pair, with the natural log?
 

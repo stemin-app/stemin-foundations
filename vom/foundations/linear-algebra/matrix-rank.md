@@ -62,7 +62,7 @@ $\mathbf{A}^{-1}$ that undoes it: $\mathbf{A}^{-1}\mathbf{A} = \mathbf{I}$. A sq
 below full rank collapses space and has no inverse.
 :::
 
-::: exercise q1
+::: flashcard q1
 What is the rank of $\begin{bmatrix} 2 & -1 \\ -6 & 3 \end{bmatrix}$?
 
 ::: answer
@@ -70,7 +70,7 @@ What is the rank of $\begin{bmatrix} 2 & -1 \\ -6 & 3 \end{bmatrix}$?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Find two different vectors that $\begin{bmatrix} 1 & 2 \\ 2 & 4 \end{bmatrix}$ sends to zero.
 
 ::: answer
@@ -87,7 +87,7 @@ $x_2 = 2$ gives $[-4, 2]^T$: $\mathbf{B}[-4, 2]^T = [-4 + 4, -8 + 8]^T = \mathbf
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A $3 \times 5$ matrix has rank 3. Is it full rank, and does it have an inverse?
 
 ::: answer

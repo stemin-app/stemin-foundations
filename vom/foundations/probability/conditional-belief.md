@@ -74,7 +74,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 $X$ is the roll of a fair die. What is $P(X = 6 \mid X \text{ is even})$?
 
 ::: answer
@@ -90,7 +90,7 @@ $$ P(X = 6 \mid \text{even}) = \frac{1/6}{3/6} = \frac{1}{3} $$
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $P(A \text{ and } B) = 0.12$ and $P(B) = 0.4$. What is $P(A \mid B)$?
 
 ::: answer
@@ -98,7 +98,7 @@ $0.3$. Divide the joint probability by $P(B)$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A model gives $P(w_1) = 0.1$, $P(w_2 \mid w_1) = 0.5$ and $P(w_3 \mid w_1 w_2) = 0.4$. What
 probability does it give the three-word sequence $w_1 w_2 w_3$?
 

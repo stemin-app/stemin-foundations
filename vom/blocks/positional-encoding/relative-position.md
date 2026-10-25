@@ -51,7 +51,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 For one pair with $\omega = 0.5$, what rotation angle takes position $t$ to position $t + 4$?
 
 ::: answer
@@ -59,7 +59,7 @@ For one pair with $\omega = 0.5$, what rotation angle takes position $t$ to posi
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $d = 4$, $\omega_0 = 1$ and $\omega_1 = 0.01$, compute $\mathbf{p}_t \cdot \mathbf{p}_{t+3}$.
 
 ::: answer

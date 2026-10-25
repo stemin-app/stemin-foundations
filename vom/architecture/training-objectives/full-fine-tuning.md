@@ -103,7 +103,7 @@ draw:
 ```
 :::
 
-::: exercise ft-penalty-minimum
+::: flashcard ft-penalty-minimum
 With $\mathcal{L}_{fine} = (\theta - 3)^2$, $\theta_{pre} = 0$ and $\lambda = 2$, where is the minimum of
 $\mathcal{L}_{fine} + \lambda \theta^2$?
 
@@ -118,7 +118,7 @@ $6\theta - 6 = 0 \implies \theta^* = 1$ ∎
 :::
 :::
 
-::: exercise ft-storage
+::: flashcard ft-storage
 You fully fine-tune a 7B model for 5 tasks and store each copy at 2 bytes per weight. How much
 storage do the copies take?
 
@@ -127,7 +127,7 @@ storage do the copies take?
 :::
 :::
 
-::: exercise ft-layer-count
+::: flashcard ft-layer-count
 A layer has $d = 4096$, four $d \times d$ attention matrices, and the feed-forward pair
 $d \times 4d$ and $4d \times d$. Ignoring biases and normalization, how many weights does full
 fine-tuning update in the layer?

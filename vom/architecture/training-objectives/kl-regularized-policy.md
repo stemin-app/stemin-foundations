@@ -88,7 +88,7 @@ reward of a whole response among its tokens. Implementations are intricate. The 
 small steps, clip large changes, and improve the policy gradually.
 :::
 
-::: exercise q1
+::: flashcard q1
 With $\beta = 0.1$, the policy gives a response probability $0.4$ and the reference gives it
 $0.1$. The reward is 2. What is the penalized reward $r - \beta \log(\pi_\theta / \pi_{ref})$?
 
@@ -103,7 +103,7 @@ $2 - 0.1 \times 1.386 = 2 - 0.139 = 1.861$. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $\epsilon = 0.2$ and $\hat{A}_t = 1$, what is the PPO objective for the ratios $\rho = 1.1$ and
 $\rho = 1.5$?
 
@@ -112,7 +112,7 @@ $\rho = 1.5$?
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 In the two-response example, the reference gives the better response $0.2$, its reward advantage
 is $\Delta = 1$, and $\beta = 1$. What probability does $\pi^*$ give it?
 

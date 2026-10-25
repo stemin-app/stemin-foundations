@@ -69,7 +69,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 With $d = 1{,}024$, at what sequence length do the attention scores cost as much as the
 projections and the FFN of a layer?
 
@@ -82,7 +82,7 @@ $2n^2 d = 12 n d^2 \implies n = 6d = 6 \times 1{,}024 = 6{,}144$. ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Estimate the weights of a decoder-only model with $d_{model} = 4{,}096$ and $N = 32$, embeddings
 left out.
 
@@ -91,7 +91,7 @@ About 6.4 billion. $12 \times 32 \times 4{,}096^2 \approx 6.44 \times 10^9$.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 A model with $h = 16$ heads and $N = 24$ layers reads $n = 2{,}048$ tokens. How many attention
 weights does training keep for the backward pass?
 

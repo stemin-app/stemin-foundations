@@ -67,7 +67,7 @@ draw:
 ```
 :::
 
-::: exercise compose-linear-layers
+::: flashcard compose-linear-layers
 Two layers use the identity as activation and have no bias:
 $\mathbf{W}_1 = \begin{bmatrix} 1 & 2 \\ 0 & 1 \end{bmatrix}$, then
 $\mathbf{W}_2 = \begin{bmatrix} 1 & 0 \\ 1 & 1 \end{bmatrix}$. Which single matrix does the
@@ -85,7 +85,7 @@ $$ \mathbf{W}_2 \mathbf{W}_1 = \begin{bmatrix} 1 \cdot 1 + 0 \cdot 0 & 1 \cdot 2
 :::
 :::
 
-::: exercise relu-vector
+::: flashcard relu-vector
 Apply the ReLU, element by element, to $\mathbf{z} = [-1.5, 0, 2.3]^T$.
 
 ::: answer
@@ -93,7 +93,7 @@ $[0, 0, 2.3]^T$. Each negative entry becomes zero; the others pass unchanged.
 :::
 :::
 
-::: exercise sigmoid-symmetry
+::: flashcard sigmoid-symmetry
 What is $\sigma(z) + \sigma(-z)$, for any $z$?
 
 ::: answer

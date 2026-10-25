@@ -64,7 +64,7 @@ the differences $\mathbf{e}_{\text{king}} - \mathbf{e}_{\text{man}}$ and
 $\mathbf{e}_{\text{queen}} - \mathbf{e}_{\text{woman}}$ both end up along the royalty direction.
 :::
 
-::: exercise analogy-vector
+::: flashcard analogy-vector
 In two dimensions, $\mathbf{e}_{\text{man}} = (1, 1)$, $\mathbf{e}_{\text{woman}} = (1, 3)$ and
 $\mathbf{e}_{\text{king}} = (4, 1)$. What is $\mathbf{e}_{\text{king}} - \mathbf{e}_{\text{man}} + \mathbf{e}_{\text{woman}}$?
 
@@ -79,7 +79,7 @@ $$ (4, 1) - (1, 1) + (1, 3) = (4 - 1 + 1,\ 1 - 1 + 3) = (4, 3) $$
 :::
 :::
 
-::: exercise analogy-difference
+::: flashcard analogy-difference
 The analogy $\text{king} - \text{man} + \text{woman} \approx \text{queen}$ holds. Which vector difference is
 $\mathbf{e}_{\text{queen}} - \mathbf{e}_{\text{woman}}$ close to?
 
@@ -88,7 +88,7 @@ $\mathbf{e}_{\text{king}} - \mathbf{e}_{\text{man}}$. Subtract $\mathbf{e}_{\tex
 :::
 :::
 
-::: exercise analogy-nearest
+::: flashcard analogy-nearest
 The analogy vector of the first exercise is $(4, 3)$. Two candidates are
 $\mathbf{e}_{\text{queen}} = (4, 3.2)$ and $\mathbf{e}_{\text{prince}} = (4.5, 1)$. Which has
 the higher cosine similarity with $(4, 3)$?

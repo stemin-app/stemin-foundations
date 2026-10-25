@@ -41,7 +41,7 @@ its middle sub-layer. An encoder-only block is the encoder layer. The equations 
 decks apply as they stand.
 :::
 
-::: exercise q1
+::: flashcard q1
 Which sub-layer does a GPT block lack, compared with a decoder layer of the original transformer?
 
 ::: answer
@@ -49,7 +49,7 @@ Cross-attention. With no encoder, there is nothing to attend across to.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Why can BERT not generate text one token at a time?
 
 ::: answer

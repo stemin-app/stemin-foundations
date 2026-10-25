@@ -62,7 +62,7 @@ Continuous distributions appear when you set the initial weights of a network an
 analyse how signals grow or shrink inside it.
 :::
 
-::: exercise q1
+::: flashcard q1
 $X$ is uniform on $[0, 4]$, so $f(x) = \frac{1}{4}$ there. What is $P(1 \leq X \leq 2)$?
 
 ::: answer
@@ -70,7 +70,7 @@ $0.25$. The area is height times width, $\frac{1}{4} \times 1$.
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $X$ has the density $f(x) = e^{-x}$ for $x \geq 0$. What is $P(0 \leq X \leq 1)$?
 
 ::: answer
@@ -86,7 +86,7 @@ $$ 1 - 0.368 = 0.632 $$
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $X$ is a continuous random variable with density $f(x) = 2x$ on $[0, 1]$. What is $P(X = 0.5)$?
 
 ::: answer

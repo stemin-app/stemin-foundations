@@ -57,7 +57,7 @@ query. At some point a dollar buys more as research, better data or a better met
 scale.
 :::
 
-::: exercise q1
+::: flashcard q1
 A compute-optimal model has 500 billion parameters. How many training tokens does it want, and is
 that more than an estimated stock of 10 trillion?
 
@@ -66,7 +66,7 @@ that more than an estimated stock of 10 trillion?
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 With $\alpha_C = 0.05$, by what factor does the loss fall for 100 times more compute?
 
 ::: answer

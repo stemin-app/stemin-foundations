@@ -81,7 +81,7 @@ draw:
 ```
 :::
 
-::: exercise q1
+::: flashcard q1
 A model outputs the logits $[0,\ 0,\ 0,\ 0]$. What is the softmax?
 
 ::: answer
@@ -97,7 +97,7 @@ $$ \operatorname{softmax} = \left[\tfrac{1}{4},\ \tfrac{1}{4},\ \tfrac{1}{4},\ \
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Two words have the logits $[\ln 3,\ 0]$. What is the softmax?
 
 ::: answer
@@ -113,7 +113,7 @@ $$ \operatorname{softmax} = \left[\tfrac{3}{4},\ \tfrac{1}{4}\right] = [0.75,\ 0
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 You add 5 to every logit of $[2.0,\ 1.0,\ 0.1,\ -1.0]$. What is the new softmax?
 
 ::: answer
@@ -121,7 +121,7 @@ $[0.638,\ 0.235,\ 0.095,\ 0.032]$, unchanged. A shift common to all logits cance
 :::
 :::
 
-::: exercise q4
+::: flashcard q4
 Two words have the logits $[1,\ 0]$. What probability does the first word get at temperature
 $T = 0.5$?
 

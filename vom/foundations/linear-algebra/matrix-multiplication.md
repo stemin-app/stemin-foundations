@@ -74,7 +74,7 @@ vectors is symmetric, because $\mathbf{u} \cdot \mathbf{v} = \mathbf{v} \cdot \m
 Attention scores are not, as you will see: a query and a key are made by two different matrices.
 :::
 
-::: exercise q1
+::: flashcard q1
 Compute $\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}\begin{bmatrix} 0 & 1 \\ 1 & 1 \end{bmatrix}$.
 
 ::: answer
@@ -93,7 +93,7 @@ $c_{22} = 3 \cdot 1 + 4 \cdot 1 = 7$ ∎
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 $\mathbf{Q} \in \mathbb{R}^{10 \times 64}$ and $\mathbf{K} \in \mathbb{R}^{10 \times 64}$. What
 is the size of $\mathbf{Q}\mathbf{K}^T$? Does $\mathbf{Q}\mathbf{K}$ exist?
 
@@ -103,7 +103,7 @@ sizes 64 and 10 differ.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 $\mathbf{A}$ is $3 \times 5$ and $\mathbf{B}$ is $5 \times 2$. What is the size of
 $(\mathbf{A}\mathbf{B})^T$, and which product of transposes equals it?
 

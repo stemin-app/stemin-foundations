@@ -93,7 +93,7 @@ draw:
 More neurons give more kinks, and a line with enough kinks can follow any continuous curve.
 :::
 
-::: exercise mlp-shapes
+::: flashcard mlp-shapes
 A network maps $\mathbb{R}^{4}$ to $\mathbb{R}^{2}$ through one hidden layer of 5 neurons. What
 are the shapes of $\mathbf{W}^{(1)}$ and $\mathbf{W}^{(2)}$, and how many parameters does it have
 in total, biases included?
@@ -112,7 +112,7 @@ Total: $20 + 5 + 10 + 2 = 37$. ∎
 :::
 :::
 
-::: exercise mlp-forward
+::: flashcard mlp-forward
 A network has one input, two ReLU hidden neurons with $\mathbf{W}^{(1)} = [1, -1]^T$ and
 $\mathbf{b}^{(1)} = [0, 1]^T$, and a linear output with $\mathbf{W}^{(2)} = [2, 3]$ and
 $b^{(2)} = 0$. What does it output for $x = 2$?
@@ -130,7 +130,7 @@ $$ y = 2 \cdot 2 + 3 \cdot 0 + 0 = 4 $$
 :::
 :::
 
-::: exercise mlp-silenced-neuron
+::: flashcard mlp-silenced-neuron
 In the worked example, which input change brings the second hidden neuron back to life: an
 input $\mathbf{x} = [0, 1]^T$ or $\mathbf{x} = [1, 0]^T$?
 

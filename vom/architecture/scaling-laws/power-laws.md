@@ -113,7 +113,7 @@ $2^{-0.076} = 0.949$, a 5.1% drop. A slope of $-0.1$ gives $2^{-0.1} = 0.933$, a
 many doublings the gap compounds.
 :::
 
-::: exercise power-law-hundredfold
+::: flashcard power-law-hundredfold
 The loss follows $L = 20\,N^{-0.1}$. By what factor does the loss change when $N$ grows from
 $10^8$ to $10^{10}$?
 
@@ -130,7 +130,7 @@ $$ L(10^8) = 20 \times 10^{-0.8} = 3.17 \qquad L(10^{10}) = 20 \times 10^{-1} = 
 :::
 :::
 
-::: exercise power-law-slope
+::: flashcard power-law-slope
 On log-log axes a straight line falls 0.3 decades of $y$ for every decade of $x$. What is the
 exponent, and by what factor does doubling $x$ multiply $y$?
 
@@ -147,7 +147,7 @@ $$ 2^{-0.3} = e^{-0.3 \times 0.693} = e^{-0.208} = 0.812 $$
 :::
 :::
 
-::: exercise power-law-square-root
+::: flashcard power-law-square-root
 The quantity $y = 4\sqrt{x}$ is a power law. What is its exponent, and by what factor does $y$
 grow when $x$ doubles?
 

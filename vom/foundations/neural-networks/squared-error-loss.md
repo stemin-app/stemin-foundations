@@ -79,7 +79,7 @@ The $\frac{1}{2}$ cancels the 2 that the derivative brings down. It scales the l
 not move the minimum.
 :::
 
-::: exercise mse-two-points
+::: flashcard mse-two-points
 A network predicts $2$ and $4$ where the true values are $1$ and $4$. What is the mean squared
 error?
 
@@ -94,7 +94,7 @@ $$ \mathcal{L}_{\text{MSE}} = \frac{1}{2}\left[(2 - 1)^2 + (4 - 4)^2\right] = \f
 :::
 :::
 
-::: exercise least-squares-two-points
+::: flashcard least-squares-two-points
 You fit $\hat{y} = w x$ to the points $(1, 1)$ and $(2, 3)$ with the mean squared error. Which
 $w$ gives the smallest loss?
 
@@ -113,7 +113,7 @@ Check: $\sum x y / \sum x^2 = (1 + 6)/(1 + 4) = 1.4$. ∎
 :::
 :::
 
-::: exercise squared-penalty-ratio
+::: flashcard squared-penalty-ratio
 Under the squared error, how many times more does an error of 3 cost than an error of 1?
 
 ::: answer

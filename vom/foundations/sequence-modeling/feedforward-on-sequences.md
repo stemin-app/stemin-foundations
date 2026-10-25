@@ -51,7 +51,7 @@ notion of a sequence, of position, or of one pattern that can appear at many pos
 has to build that notion into the architecture.
 :::
 
-::: exercise q1
+::: flashcard q1
 With $V = 5{,}000$ and $T_{\max} = 40$, how many entries does the flattened one-hot input have?
 
 ::: answer
@@ -59,7 +59,7 @@ With $V = 5{,}000$ and $T_{\max} = 40$, how many entries does the flattened one-
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Give two sentences with different meanings and the same bag of words.
 
 ::: answer
@@ -68,7 +68,7 @@ does not.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 With $V = 10{,}000$, how many possible word pairs are there?
 
 ::: answer

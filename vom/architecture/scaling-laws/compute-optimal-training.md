@@ -109,7 +109,7 @@ experiments and different fits, not from different mathematics.
 [Compute-optimal allocation](reference:compute-optimal-allocation)
 :::
 
-::: exercise compute-optimal-budget
+::: flashcard compute-optimal-budget
 You have $6 \times 10^{22}$ FLOPs. Under the 20 tokens per parameter rule, how large a model
 should you train, and on how many tokens?
 
@@ -126,7 +126,7 @@ Check: $6 \times 2.24 \times 10^{10} \times 4.47 \times 10^{11} = 6.0 \times 10^
 :::
 :::
 
-::: exercise compute-optimal-gpt3
+::: flashcard compute-optimal-gpt3
 GPT-3 has 175 billion parameters and trained on 300 billion tokens. What did it cost in FLOPs,
 and what model size would the 20 tokens per parameter rule pick for the same budget?
 
@@ -145,7 +145,7 @@ $$ D = 20 \times 5.12 \times 10^{10} = 1.02 \times 10^{12} $$
 :::
 :::
 
-::: exercise compute-optimal-hundredfold
+::: flashcard compute-optimal-hundredfold
 The budget grows 100 times. By what factor does the best model size grow under Chinchilla's
 $C^{0.5}$, and under Kaplan's $C^{0.73}$?
 

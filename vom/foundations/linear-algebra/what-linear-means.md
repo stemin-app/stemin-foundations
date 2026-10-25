@@ -71,7 +71,7 @@ The result depends linearly on the weights. Double every $c_i$ and the result do
 linear combinations of the same vectors and you get a third one.
 :::
 
-::: exercise q1
+::: flashcard q1
 Is $f\left(\begin{bmatrix} v_1 \\ v_2 \end{bmatrix}\right) = \begin{bmatrix} v_1 + v_2 \\ 2v_1 \end{bmatrix}$
 linear?
 
@@ -90,7 +90,7 @@ Together: $f(a\mathbf{u} + b\mathbf{v}) = a f(\mathbf{u}) + b f(\mathbf{v})$. âˆ
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 Is $g\left(\begin{bmatrix} v_1 \\ v_2 \end{bmatrix}\right) = \begin{bmatrix} v_1 v_2 \\ v_1 \end{bmatrix}$
 linear? Test it with $\mathbf{v} = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$ and $a = 2$.
 
@@ -107,7 +107,7 @@ The first components differ, so the scaling rule fails. The product $v_1 v_2$ is
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Compute the linear combination $2\begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix} - 3\begin{bmatrix} 0 \\ 1 \\ 2 \end{bmatrix}$.
 
 ::: answer

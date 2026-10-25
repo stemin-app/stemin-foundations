@@ -41,7 +41,7 @@ neighbours, has position built in. A **positional encoding** gives attention the
 keeps the parallel reading.
 :::
 
-::: exercise q1
+::: flashcard q1
 Self-attention with no position information maps the input tokens $(a, b, c)$ to the outputs
 $(\mathbf{y}_a, \mathbf{y}_b, \mathbf{y}_c)$. What are the outputs for the input $(c, a, b)$?
 
@@ -50,7 +50,7 @@ $(\mathbf{y}_c, \mathbf{y}_a, \mathbf{y}_b)$. The outputs follow the tokens and 
 :::
 :::
 
-::: exercise q2
+::: flashcard q2
 A token keeps its content and moves from position 2 to position 50. Does its key, and so its
 score $\mathbf{q}_i^\top \mathbf{k}_j$ with any query, change?
 
@@ -59,7 +59,7 @@ No. The key is computed from the content alone, so the score is the same.
 :::
 :::
 
-::: exercise q3
+::: flashcard q3
 Without position information, is the output vector for "bites" the same in "dog bites man" and in
 "man bites dog"?
 

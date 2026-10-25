@@ -86,7 +86,7 @@ the text that follows `<|assistant|>`:
 `<|user|>` What is the capital of France? `<|assistant|>` The capital of France is Paris.
 :::
 
-::: exercise it-response-loss
+::: flashcard it-response-loss
 A response has three tokens. Given the instruction and the earlier response tokens, the model
 gives them the probabilities $0.5$, $0.8$ and $0.25$. What is $\mathcal{L}_{IT}$?
 
@@ -101,7 +101,7 @@ $= \ln(2 \times 1.25 \times 4) = \ln 10 = 2.303$ ∎
 :::
 :::
 
-::: exercise it-mask-count
+::: flashcard it-mask-count
 An instruction has 12 tokens and its response has 8. How many terms of the masked sum have
 $\text{mask}_t = 1$?
 
@@ -110,7 +110,7 @@ $\text{mask}_t = 1$?
 :::
 :::
 
-::: exercise it-mixture-share
+::: flashcard it-mixture-share
 A dataset holds 10,000 human-written, 100,000 reformatted and 50,000 synthetic examples. What
 share of it is human-written?
 
