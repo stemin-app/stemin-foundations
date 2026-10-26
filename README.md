@@ -16,8 +16,10 @@ A Forgejo or Gitea of your own needs `[cors] ENABLED = true` in its `app.ini`.
 
 ## Write it
 
-The format is in `CONTENT-MODEL.md` in the Stemin repository. Check the repository before you
-push:
+The format is in `CONTENT-MODEL.md` in the checker repository,
+https://github.com/stemin-app/stemin-checker. The guide for authors is at
+https://stemin.app/docs. Get the checker from the releases of that repository, and check this
+repository before you push:
 
 ```
 stemin check .
